@@ -104,7 +104,7 @@
         </div>
       `,
       vehicleTracking: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer vehicleTracking">
           <h1>
             Track advanced <br />
             telematics in real-time

@@ -365,6 +365,15 @@ html {
     color: var(--accents-t-2-main-headlines, #25477b);
   }
 
+  .copySection .copySectionContainer.dashCams h1,
+  .copySection .copySectionContainer.softwarePackage h1 {
+    font-size: 28px;
+  }
+
+  .copySection .copySectionContainer.vehicleTracking h1 {
+    font-size: 32px;
+  }
+
   .copySection .checklists li:not(:last-child) {
     margin-bottom: 16px;
   }
