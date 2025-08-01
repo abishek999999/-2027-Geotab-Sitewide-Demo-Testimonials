@@ -228,7 +228,7 @@
   if (window.location.pathname === "/request-demo/") {
     /*Variation 1*/
     (function () {
-      var testID = "2025RD",
+      var testID = "2027RD_V1",
         testClass = "spz_t" + testID;
 
       var initialElementInterval = setInterval(function () {
@@ -325,7 +325,7 @@
 
               // Wrapping form and content in a container
               const parentElement = document.querySelector(
-                ".spz_t2025RD .formSection"
+                ".spz_t2027RD_V1 .formSection"
               );
               const newDiv = document.createElement("div");
               newDiv.className = "customContainer";
@@ -343,11 +343,11 @@
       function addLogoToTheForm() {
         if (window.innerWidth >= 768) {
           if (
-            document.querySelector(".spz_t2025RD .mainSection") &&
+            document.querySelector(".spz_t2027RD_V1 .mainSection") &&
             !document.querySelector(".geotabLogo")
           ) {
             document
-              .querySelector(".spz_t2025RD .mainSection")
+              .querySelector(".spz_t2027RD_V1 .mainSection")
               .insertAdjacentHTML(
                 "afterbegin",
                 `
@@ -370,13 +370,13 @@
         } else {
           if (
             document.querySelector(
-              ".spz_t2025RD .formSection .formWrapper .formWrapperContainer"
+              ".spz_t2027RD_V1 .formSection .formWrapper .formWrapperContainer"
             ) &&
             !document.querySelector(".geotabLogo")
           ) {
             document
               .querySelector(
-                ".spz_t2025RD .formSection .formWrapper .formWrapperContainer"
+                ".spz_t2027RD_V1 .formSection .formWrapper .formWrapperContainer"
               )
               .insertAdjacentHTML(
                 "afterbegin",
@@ -454,27 +454,27 @@
               }
 
               document
-                .querySelector(".spz_t2025RD .formSection .formWrapper h2")
+                .querySelector(".spz_t2027RD_V1 .formSection .formWrapper h2")
                 .parentElement.classList.add("headingWrapper");
               document.querySelector(
-                ".spz_t2025RD .formSection .formWrapper h2"
+                ".spz_t2027RD_V1 .formSection .formWrapper h2"
               ).innerText = "Get a demo";
 
               if (!document.querySelector(".steps")) {
                 document
-                  .querySelector(".spz_t2025RD .formSection .headingWrapper")
+                  .querySelector(".spz_t2027RD_V1 .formSection .headingWrapper")
                   .insertAdjacentHTML("beforebegin", createSteps(1));
               }
 
               if (!document.querySelector(".headingWrapper .tags")) {
                 if (
                   document.querySelector(
-                    ".spz_t2025RD .formSection .formWrapper .headingWrapper h2"
+                    ".spz_t2027RD_V1 .formSection .formWrapper .headingWrapper h2"
                   )
                 ) {
                   document
                     .querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .headingWrapper h2"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .headingWrapper h2"
                     )
                     .insertAdjacentHTML(
                       "afterend",
@@ -596,51 +596,51 @@
               // Changing Labels
               if (
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="first_name"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="first_name"]'
                 )
               ) {
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="first_name"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="first_name"]'
                 ).innerHTML = "First name";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="last_name"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="last_name"]'
                 ).innerHTML = "Last name";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="Title__c"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="Title__c"]'
                 ).innerHTML = "Job title";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="email"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="email"]'
                 ).innerHTML = "Email";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="phone"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="phone"]'
                 ).innerHTML = "Phone";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="How_Did_You_Hear_About_Geotab__c"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="How_Did_You_Hear_About_Geotab__c"]'
                 ).innerHTML = "How did you hear about us?";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="company"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="company"]'
                 ).innerHTML = "Company name";
                 if (
                   document.querySelector(
-                    '.spz_t2025RD .formSection .formWrapper label[for="industry"]'
+                    '.spz_t2027RD_V1 .formSection .formWrapper label[for="industry"]'
                   )
                 ) {
                   document.querySelector(
-                    '.spz_t2025RD .formSection .formWrapper label[for="industry"]'
+                    '.spz_t2027RD_V1 .formSection .formWrapper label[for="industry"]'
                   ).innerHTML = "Industry";
                 }
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="multiple_region_select__c"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="multiple_region_select__c"]'
                 ).innerHTML =
                   "Does your company operate in multiple regions? <span>(Optional)</span>";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="fleet_size"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="fleet_size"]'
                 ).innerHTML = "Fleet size";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="country"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="country"]'
                 ).innerHTML = "Country";
                 document.querySelector(
-                  '.spz_t2025RD .formSection .formWrapper label[for="city"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper label[for="city"]'
                 ).innerHTML = "City";
               }
 
@@ -680,11 +680,11 @@
                 );
               document
                 .querySelector(
-                  ".spz_t2025RD .formSection .formWrapper .continueButton"
+                  ".spz_t2027RD_V1 .formSection .formWrapper .continueButton"
                 )
                 .addEventListener("click", function () {
                   var checkfields = document.querySelectorAll(
-                    ".spz_t2025RD .formSection .formWrapper .fieldsWrapper:not(.hiddenFieldStep2) input:not(#AB_name__c):not(#AB_treatment__c):not(#How_Did_You_Hear_About_Geotab__c), .spz_t2025RD .formSection .formWrapper .fieldsWrapper:not(.hiddenFieldStep2) select:not(#Interest_Segment__c)"
+                    ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper:not(.hiddenFieldStep2) input:not(#AB_name__c):not(#AB_treatment__c):not(#How_Did_You_Hear_About_Geotab__c), .spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper:not(.hiddenFieldStep2) select:not(#Interest_Segment__c)"
                   );
                   var allFieldsFilled = 0;
                   var emptyFields = [];
@@ -720,12 +720,12 @@
                         });
                       document
                         .querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .continueButton"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .continueButton"
                         )
                         .classList.add("hiddenFieldStep2");
                       document
                         .querySelectorAll(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper:not(.visibleFieldStep2) input, .spz_t2025RD .formSection .formWrapper .fieldsWrapper:not(.visibleFieldStep2) select"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper:not(.visibleFieldStep2) input, .spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper:not(.visibleFieldStep2) select"
                         )
                         .forEach((checkfield) => {
                           checkfield
@@ -742,7 +742,7 @@
                         .remove();
                       document
                         .querySelector(
-                          ".spz_t2025RD .formSection .headingWrapper"
+                          ".spz_t2027RD_V1 .formSection .headingWrapper"
                         )
                         .insertAdjacentHTML("beforebegin", createSteps(2));
                     } else {
@@ -828,7 +828,7 @@
 
                 document
                   .querySelector(
-                    ".spz_t2025RD .formSection .formWrapper .optInWrapperCase2 > div"
+                    ".spz_t2027RD_V1 .formSection .formWrapper .optInWrapperCase2 > div"
                   )
                   .addEventListener("click", function (event) {
                     // Get the element under the cursor
@@ -840,7 +840,7 @@
                     // Check if the element under the cursor is the one you want to exclude
                     if (
                       elementUnderCursor.closest(
-                        ".spz_t2025RD .formSection .formWrapper .optInWrapper a"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .optInWrapper a"
                       )
                     ) {
                       // If the cursor is over the excluded element, do nothing
@@ -851,19 +851,19 @@
                     if (
                       document
                         .querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .optInWrapperCase2 label.MuiFormControlLabel-labelPlacementEnd span.MuiButtonBase-root"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .optInWrapperCase2 label.MuiFormControlLabel-labelPlacementEnd span.MuiButtonBase-root"
                         )
                         .classList.contains("Mui-checked")
                     ) {
                       document
                         .querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .optInWrapperCase2 label.MuiFormControlLabel-labelPlacementEnd:nth-child(2) input"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .optInWrapperCase2 label.MuiFormControlLabel-labelPlacementEnd:nth-child(2) input"
                         )
                         .click();
                     } else {
                       document
                         .querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .optInWrapperCase2 label.MuiFormControlLabel-labelPlacementEnd:first-child input"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .optInWrapperCase2 label.MuiFormControlLabel-labelPlacementEnd:first-child input"
                         )
                         .click();
                     }
@@ -981,8 +981,8 @@
               // Initialize hidden fields with hiddenField class
               var hiddenFields = document.querySelectorAll(
                 `
-              .spz_t2025RD .formSection .formWrapper .fieldsWrapper.phone,
-              .spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select
+              .spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.phone,
+              .spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select
             `
               );
               hiddenFields.forEach((field) => {
@@ -992,11 +992,11 @@
               // Get all visible fields
               var visibleFields = document.querySelectorAll(
                 `
-            .spz_t2025RD .fieldsWrapper.first_name input,
-            .spz_t2025RD .fieldsWrapper.last_name input,
-            .spz_t2025RD .fieldsWrapper.email input,
-            .spz_t2025RD .fieldsWrapper.Title__c input,
-            .spz_t2025RD .fieldsWrapper.Title__c select
+            .spz_t2027RD_V1 .fieldsWrapper.first_name input,
+            .spz_t2027RD_V1 .fieldsWrapper.last_name input,
+            .spz_t2027RD_V1 .fieldsWrapper.email input,
+            .spz_t2027RD_V1 .fieldsWrapper.Title__c input,
+            .spz_t2027RD_V1 .fieldsWrapper.Title__c select
           `
               );
               // Perform the check on page load
@@ -1117,14 +1117,14 @@
                   function (mutation) {
                     if (
                       document.querySelectorAll(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.subIndustry"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.subIndustry"
                       ).length > 0
                     ) {
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                       ).style.gridColumn = "span 1";
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                       ).style.gridColumn = "span 1";
                     }
                     if (
@@ -1143,17 +1143,17 @@
                       }, 100);
                       if (
                         document.querySelectorAll(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.subIndustry"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.subIndustry"
                         ).length > 0
                       ) {
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                         ).style.gridColumn = "span 2";
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                         ).style.gridColumn = "span 1";
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                         ).style.gridColumn = "span 2";
                       }
                     } else {
@@ -1332,34 +1332,34 @@
                         );
                       if (
                         document.querySelectorAll(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.state"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.state"
                         ).length > 0
                       ) {
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                         ).style.gridColumn = "span 2";
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                         ).style.gridColumn = "span 2";
                       } else if (
                         !document
                           .querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                           )
                           .classList.contains("hiddenField")
                       ) {
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                         ).style.gridColumn = "span 1";
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                         ).style.gridColumn = "span 1";
                       } else {
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                         ).style.gridColumn = "span 2";
                         document.querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                         ).style.gridColumn = "span 2";
                       }
 
@@ -1676,14 +1676,14 @@
                 countrySelect.addEventListener("change", function (event) {
                   if (
                     document.querySelectorAll(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.subIndustry"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.subIndustry"
                     ).length > 0
                   ) {
                     document.querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                     ).style.gridColumn = "span 1";
                     document.querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                     ).style.gridColumn = "span 1";
                   }
                   if (event.target.value == "US") {
@@ -1696,17 +1696,17 @@
                     handleCityFullWidth();
                     if (
                       document.querySelectorAll(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.subIndustry"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.subIndustry"
                       ).length > 0
                     ) {
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                       ).style.gridColumn = "span 2";
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                       ).style.gridColumn = "span 1";
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                       ).style.gridColumn = "span 2";
                     }
                   } else if (event.target.value == "CA") {
@@ -1719,17 +1719,17 @@
                     handleCityFullWidth();
                     if (
                       document.querySelectorAll(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.subIndustry"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.subIndustry"
                       ).length > 0
                     ) {
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                       ).style.gridColumn = "span 2";
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                       ).style.gridColumn = "span 1";
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                       ).style.gridColumn = "span 2";
                     }
                   } else {
@@ -1745,14 +1745,14 @@
                       .classList.add("fullWidth");
                     if (
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.subIndustry"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.subIndustry"
                       )
                     ) {
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                       ).style.gridColumn = "span 1";
                       document.querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                       ).style.gridColumn = "span 1";
                     }
                   }
@@ -1796,7 +1796,7 @@
                     if (
                       document
                         .querySelector(
-                          ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                          ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                         )
                         .classList.contains("visibleFieldStep2")
                     ) {
@@ -1866,34 +1866,34 @@
                           );
                         if (
                           document.querySelectorAll(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.state"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.state"
                           ).length > 0
                         ) {
                           document.querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                           ).style.gridColumn = "span 2";
                           document.querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                           ).style.gridColumn = "span 2";
                         } else if (
                           !document
                             .querySelector(
-                              ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                              ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                             )
                             .classList.contains("hiddenField")
                         ) {
                           document.querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                           ).style.gridColumn = "span 1";
                           document.querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.city"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.city"
                           ).style.gridColumn = "span 1";
                         } else {
                           document.querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.How_Did_You_Hear_About_Geotab__select"
                           ).style.gridColumn = "span 2";
                           document.querySelector(
-                            ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.country"
+                            ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.country"
                           ).style.gridColumn = "span 2";
                         }
                       }
@@ -1905,12 +1905,12 @@
 
               // test 2025 test update changes
               const formContainer = document.querySelector(
-                ".spz_t2025RD .formWrapper .formWrapperContainer"
+                ".spz_t2027RD_V1 .formWrapper .formWrapperContainer"
               );
               if (
                 formContainer &&
                 !document.querySelector(
-                  ".spz_t2025RD .formWrapper .formWrapperContainer .copySection"
+                  ".spz_t2027RD_V1 .formWrapper .formWrapperContainer .copySection"
                 )
               ) {
                 const copySectionElement = document.createElement("div");
@@ -2026,7 +2026,7 @@
                 ) {
                   document
                     .querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.multiple_region_select__c"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.multiple_region_select__c"
                     )
                     .classList.add("multiSelectField");
                   const multipleRegionSelect = document.querySelector(
@@ -2051,7 +2051,7 @@
                   // Insert the generated checkboxes after the form-field__wrapper1
                   document
                     .querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.multiple_region_select__c .form-field__wrapper1 .form-field__wrapper2"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.multiple_region_select__c .form-field__wrapper1 .form-field__wrapper2"
                     )
                     .insertAdjacentHTML(
                       "afterend",
@@ -2172,7 +2172,7 @@
                 ) {
                   document
                     .querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.Interest_Segment__c"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.Interest_Segment__c"
                     )
                     .classList.add("multiSelectField");
                   const multipleRegionSelect = document.querySelector(
@@ -2198,7 +2198,7 @@
                   // Insert the generated checkboxes after the form-field__wrapper1
                   document
                     .querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.Interest_Segment__c .form-field__wrapper1 .form-field__wrapper2"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.Interest_Segment__c .form-field__wrapper1 .form-field__wrapper2"
                     )
                     .insertAdjacentHTML(
                       "afterend",
@@ -2288,7 +2288,7 @@
                   checkboxDropdown.addEventListener("change", function (event) {
                     document
                       .querySelector(
-                        ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.Interest_Segment__c .checkbox-dropdown"
+                        ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.Interest_Segment__c .checkbox-dropdown"
                       )
                       .closest(".MuiGrid-root")
                       .classList.remove("error");
@@ -2390,7 +2390,7 @@
                   );
                 }
               }
-              hiddenValue("spiralyze_conversion_tag_demo", "2025_V1");
+              hiddenValue("spiralyze_conversion_tag_demo", "2027_V1");
               spiralyze_conversion_tag();
 
               window.addEventListener("pageshow", function (event) {
@@ -2412,7 +2412,7 @@
               // Submit CTA fields focus logic
               document
                 .querySelector(
-                  '.spz_t2025RD .formSection .formWrapper .stepCTAWrapper button[type="submit"]'
+                  '.spz_t2027RD_V1 .formSection .formWrapper .stepCTAWrapper button[type="submit"]'
                 )
                 .addEventListener("click", function (event) {
                   var checkfields;
@@ -2488,7 +2488,7 @@
                             .classList.remove("error", "active", "typing");
                           document
                             .querySelector(
-                              ".spz_t2025RD .formSection .formWrapper .fieldsWrapper.Interest_Segment__c .checkbox-dropdown"
+                              ".spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper.Interest_Segment__c .checkbox-dropdown"
                             )
                             .closest(".MuiGrid-root")
                             .classList.add("error", "active", "typing");
@@ -2508,13 +2508,13 @@
 
                   function clickEventListener(event) {
                     var continueButton = document.querySelector(
-                      ".spz_t2025RD .formSection .formWrapper .continueButton"
+                      ".spz_t2027RD_V1 .formSection .formWrapper .continueButton"
                     );
                     var submitButton = document.querySelector(
-                      '.spz_t2025RD .formSection .formWrapper .stepCTAWrapper button[type="submit"]'
+                      '.spz_t2027RD_V1 .formSection .formWrapper .stepCTAWrapper button[type="submit"]'
                     );
                     if (
-                      !event.target.classList.contains("spz_t2025RD") &&
+                      !event.target.classList.contains("spz_t2027RD_V1") &&
                       !event.target.closest(".continueButton") &&
                       !event.target.closest(
                         '.stepCTAWrapper button[type="submit"]'
@@ -2545,7 +2545,7 @@
                 if (window.outerWidth >= 960) {
                   document
                     .querySelectorAll(
-                      '.spz_t2025RD .form-field div[aria-haspopup="listbox"] + input'
+                      '.spz_t2027RD_V1 .form-field div[aria-haspopup="listbox"] + input'
                     )
                     .forEach((desktopField) => {
                       let previousValue = desktopField.value; // Store the initial value
@@ -2575,7 +2575,7 @@
     })();
   } else {
     (function () {
-      var testID = "2025",
+      var testID = "2027_V1",
         testClass = "spz_t" + testID;
 
       if (!document.body.classList.contains(testClass)) {
@@ -2592,7 +2592,7 @@
           console.log("Executed");
           var checkHiddenField = setInterval(function () {
             var hiddenField = document.querySelector(
-              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form input#ab-name`
+              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form input#ab-name`
             );
             if (hiddenField) {
               clearInterval(checkHiddenField);
@@ -2682,7 +2682,7 @@
             }
           }
         }
-        hiddenValue("spiralyze_conversion_tag_demo", "2025_V1");
+        hiddenValue("spiralyze_conversion_tag_demo", "2027_V1");
         spiralyze_conversion_tag();
 
         // For Navigation CTA
@@ -2978,7 +2978,7 @@
         // Move closeIconElement variable inside the function scope
         const getCloseIcon = setInterval(() => {
           const closeIconElement = document.querySelector(
-            `.spz_t2025 .formPopup[role="presentation"] .closeIconWrapper button`
+            `.spz_t2027_V1 .formPopup[role="presentation"] .closeIconWrapper button`
           );
           if (closeIconElement) {
             clearInterval(getCloseIcon);
@@ -2997,11 +2997,11 @@
             if (
               closeIconElement &&
               !document.querySelector(
-                `.spz_t2025 .formPopup[role="presentation"] .newCloseIconWrapper`
+                `.spz_t2027_V1 .formPopup[role="presentation"] .newCloseIconWrapper`
               )
             ) {
               const stepsElement = document.querySelector(
-                `.spz_t2025 .formPopup[role="presentation"] #generic-lead-form .steps`
+                `.spz_t2027_V1 .formPopup[role="presentation"] #generic-lead-form .steps`
               );
 
               if (stepsElement) {
@@ -3024,13 +3024,13 @@
         if (window.innerWidth >= 768) {
           if (
             document.querySelector(
-              `.spz_t2025 .formPopup[role="presentation"] #generic-lead-form`
+              `.spz_t2027_V1 .formPopup[role="presentation"] #generic-lead-form`
             ) &&
             !document.querySelector(".geotabLogo")
           ) {
             document
               .querySelector(
-                `.spz_t2025 .formPopup[role="presentation"] #generic-lead-form`
+                `.spz_t2027_V1 .formPopup[role="presentation"] #generic-lead-form`
               )
               .insertAdjacentHTML(
                 "beforebegin",
@@ -3054,13 +3054,13 @@
         } else {
           if (
             document.querySelector(
-              `.spz_t2025 .formPopup[role="presentation"] #generic-lead-form`
+              `.spz_t2027_V1 .formPopup[role="presentation"] #generic-lead-form`
             ) &&
             !document.querySelector(".geotabLogo")
           ) {
             document
               .querySelector(
-                `.spz_t2025 .formPopup[role="presentation"] #generic-lead-form .mobile.logo`
+                `.spz_t2027_V1 .formPopup[role="presentation"] #generic-lead-form .mobile.logo`
               )
               .insertAdjacentHTML(
                 "beforebegin",
@@ -3102,16 +3102,16 @@
             document.querySelectorAll(".MuiInputBase-root .MuiInputBase-input")
               .length > 0 &&
             (document.querySelector(
-              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label[for="first-name"]`
+              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label[for="first-name"]`
             ) ||
               document.querySelector(
-                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label[for="company"]`
+                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label[for="company"]`
               )) &&
             document.querySelector(
-              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1)`
+              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1)`
             ) &&
             document.querySelector(
-              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2)`
+              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2)`
             )
           ) {
             clearInterval(waitelement);
@@ -3163,12 +3163,12 @@
                     // Test 2007 Changes
                     if (
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] .closeIconWrapper + .MuiGrid-root`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] .closeIconWrapper + .MuiGrid-root`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] .closeIconWrapper + .MuiGrid-root`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] .closeIconWrapper + .MuiGrid-root`
                         )
                         .classList.add("formContainer");
                     }
@@ -3181,12 +3181,12 @@
                 var waitForHeading = setInterval(() => {
                   if (
                     document.querySelectorAll(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form h2`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form h2`
                     ).length > 0 &&
                     document.querySelectorAll(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form div[aria-haspopup="listbox"],
-                       .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form input.MuiInputBase-input:not(#ab-name):not(#ab-treatment),
-                       .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form select`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form div[aria-haspopup="listbox"],
+                       .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form input.MuiInputBase-input:not(#ab-name):not(#ab-treatment),
+                       .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form select`
                     ).length > 0
                   ) {
                     clearInterval(waitForHeading);
@@ -3198,7 +3198,7 @@
 
                     // Adding classes in form heading Wrappers
                     var headingContainers = document.querySelectorAll(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form h2`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form h2`
                     );
                     headingContainers.forEach((headingWrapper) => {
                       headingWrapper.parentElement.classList.add(
@@ -3212,9 +3212,9 @@
                     // Adding classes in form fields
                     document
                       .querySelectorAll(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form div[aria-haspopup="listbox"],
-                         .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form input.MuiInputBase-input:not(#ab-name):not(#ab-treatment),
-                         .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form select`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form div[aria-haspopup="listbox"],
+                         .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form input.MuiInputBase-input:not(#ab-name):not(#ab-treatment),
+                         .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form select`
                       )
                       .forEach(function (element) {
                         element.setAttribute("placeholder", "");
@@ -3276,12 +3276,12 @@
                     // Adding classes in main wrappers to avoid nth child
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1)`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1)`
                       )
                       .classList.add("firstfieldsWrapper");
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2)`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2)`
                       )
                       .classList.add("secondfieldsWrapper");
 
@@ -3310,8 +3310,8 @@
                     // Add states classes in input fields
                     document
                       .querySelectorAll(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form div[aria-haspopup="listbox"],
-                         .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form input.MuiInputBase-input:not(#ab-name):not(#ab-treatment),
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form div[aria-haspopup="listbox"],
+                         .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form input.MuiInputBase-input:not(#ab-name):not(#ab-treatment),
                           form#generic-lead-form select`
                       )
                       .forEach(function (element) {
@@ -3320,7 +3320,7 @@
 
                     // Checking when all input fields aria-expanded will be changed to hangle active typing classes
                     var targetElements = document.querySelectorAll(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field .form-field__wrapper1 div[aria-haspopup="listbox"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field .form-field__wrapper1 div[aria-haspopup="listbox"]'
                     );
                     if (targetElements) {
                       handleDesktopSelectClasses(targetElements);
@@ -3343,7 +3343,7 @@
                 var step2Interval = setInterval(() => {
                   if (
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label[for="first-name"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label[for="first-name"]'
                     )
                   ) {
                     clearInterval(step2Interval);
@@ -3351,44 +3351,44 @@
                     // Repositioning fields
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title`
                       )
                       .after(
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.email`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.email`
                         )
                       );
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.email`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.email`
                       )
                       .after(
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.phone-number`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.phone-number`
                         )
                       );
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.phone-number`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.phone-number`
                       )
                       .after(
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.self-attribution`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.self-attribution`
                         )
                       );
 
                     document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) h2`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) h2`
                     ).innerText = "Get a demo";
 
                     if (
                       !document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .steps`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .steps`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) h2`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) h2`
                         )
                         .insertAdjacentHTML(
                           "beforebegin",
@@ -3404,12 +3404,12 @@
                     // Adding mobile logos
                     if (
                       !document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .logo.mobile`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .logo.mobile`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .steps`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .steps`
                         )
                         .insertAdjacentHTML(
                           "beforebegin",
@@ -3419,22 +3419,22 @@
 
                     // Changing Labels
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="first-name"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="first-name"]'
                     ).innerHTML = "First name";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="last-name"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="last-name"]'
                     ).innerHTML = "Last name";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="title"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="title"]'
                     ).innerHTML = "Job title";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="email"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="email"]'
                     ).innerHTML = "Email";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="phone-number"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="phone-number"]'
                     ).innerHTML = "Phone";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="self-attribution"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="self-attribution"]'
                     ).innerHTML = "How did you hear about us?";
 
                     // Updated Header of Form
@@ -3448,7 +3448,7 @@
                             ? "Get prices"
                             : "Get a demo";
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) h2`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) h2`
                         ).innerText = demoButtonInnerText;
                       }
                     });
@@ -3459,33 +3459,33 @@
                     // }
                     if (
                       !document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button.continue`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button.continue`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button`
                         )
                         .removeAttribute("disabled");
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button`
                         )
                         .classList.add("continue");
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) button`
                       ).innerHTML = `Continue <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"><path d="M11.4721 5L16.3332 10M16.3332 10L11.4721 15M16.3332 10L4.6665 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>`;
                     }
 
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .stepCTAWrapper button.continue`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) .stepCTAWrapper button.continue`
                       )
                       .addEventListener("click", function () {
                         var allFieldsFilled = 0;
                         var checkfields = document.querySelectorAll(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) input:not(#self-attribution):not([id="ab-name"]):not([id="ab-treatment"]),
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) select`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) input:not(#self-attribution):not([id="ab-name"]):not([id="ab-treatment"]),
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(1) select`
                         );
                         var emptyFields = [];
 
@@ -3508,7 +3508,7 @@
 
                         if (allFieldsFilled === checkfields.length) {
                           var emailInput = document.querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form input#email`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form input#email`
                           );
                           var email;
 
@@ -3526,7 +3526,7 @@
 
                             document
                               .querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
                               )
                               .click();
                             setTimeout(() => {
@@ -3566,17 +3566,17 @@
                     // Detecting changes in title field
                     if (
                       document.querySelectorAll(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title div[aria-haspopup]`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title div[aria-haspopup]`
                       ).length > 0
                     ) {
                       observeElementChanges(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title div[aria-haspopup]`,
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title div[aria-haspopup]`,
                         "childList",
                         function (mutation) {
                           if (mutation.target.textContent == "Other") {
                             setTimeout(function () {
                               var otherField = document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title + div`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title + div`
                               );
                               if (otherField) {
                                 otherField.style.display = "none";
@@ -3584,7 +3584,7 @@
                                   otherField.querySelector("input");
                                 if (
                                   document.querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form  #user_title`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form  #user_title`
                                   )
                                 ) {
                                   var elm =
@@ -3611,7 +3611,7 @@
                                     capitalizeAndDispatch
                                   );
                                   const el = document.querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form #user_title`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form #user_title`
                                   );
                                   el.value = "New Value";
                                   el.dispatchEvent(
@@ -3627,7 +3627,7 @@
 
                     // Title tablet field
                     var tabletTitle = document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title select`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title select`
                     );
                     if (tabletTitle) {
                       tabletTitle.addEventListener("change", function (event) {
@@ -3635,18 +3635,18 @@
                           var waitForElement = setInterval(() => {
                             if (
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form #user_title`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form #user_title`
                               )
                             ) {
                               clearInterval(waitForElement);
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form #user_title`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form #user_title`
                                 )
                                 .closest(".MuiGrid-root").style.display =
                                 "none";
                               var elm = document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form #user_title`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form #user_title`
                               );
                               const capitalizeAndDispatch = function (e) {
                                 elm.removeEventListener(
@@ -3670,7 +3670,7 @@
                                 capitalizeAndDispatch
                               );
                               const el = document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form #user_title`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form #user_title`
                               );
                               el.value = "New Value";
                               el.dispatchEvent(
@@ -3684,13 +3684,13 @@
 
                     // Progressive Logic
                     var hiddenFields = document.querySelectorAll(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.phone-number, .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.self-attribution`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.phone-number, .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.self-attribution`
                     );
                     hiddenFields.forEach((field) => {
                       field.classList.add("hiddenField");
                     });
                     var visibleFields = document.querySelectorAll(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.first-name input, .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.last-name input, .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.email input, .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title input, .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title select`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.first-name input, .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.last-name input, .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.email input, .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title input, .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title select`
                     );
 
                     visibleFields.forEach((field) => {
@@ -3729,12 +3729,12 @@
                     if (!document.querySelector(".firstfieldsWrapper .tags")) {
                       if (
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .firstfieldsWrapper h2`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .firstfieldsWrapper h2`
                         )
                       ) {
                         document
                           .querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .firstfieldsWrapper h2`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .firstfieldsWrapper h2`
                           )
                           .insertAdjacentHTML(
                             "afterend",
@@ -3755,25 +3755,25 @@
                 var step2Interval = setInterval(() => {
                   if (
                     document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label[for="company"]`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label[for="company"]`
                     ) &&
                     document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper`
                     )
                   ) {
                     clearInterval(step2Interval);
                     document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) h2`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) h2`
                     ).innerText = "Company details";
 
                     if (
                       !document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .steps`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .steps`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) h2`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) h2`
                         )
                         .insertAdjacentHTML(
                           "beforebegin",
@@ -3788,12 +3788,12 @@
 
                     if (
                       !document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .logo.mobile`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .logo.mobile`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .steps`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .steps`
                         )
                         .insertAdjacentHTML(
                           "beforebegin",
@@ -3804,45 +3804,45 @@
                     // Chaning step2 fields
                     // Select the parent element
                     var parentElement = document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper`
                     );
                     parentElement.prepend(
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                       )
                     );
                     parentElement.prepend(
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
                       )
                     );
                     parentElement.prepend(
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.fleet-size`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.fleet-size`
                       )
                     );
                     parentElement.prepend(
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry`
                       )
                     );
                     parentElement.prepend(
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.company`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.company`
                       )
                     );
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                       )
                       .classList.add("hiddenField");
 
                     // Regions Feild
                     var cityField2 = document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                     );
                     var regionField = document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.multiple_region`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.multiple_region`
                     );
                     if (cityField2 && regionField) {
                       regionField.classList.add("fullWidth");
@@ -3851,22 +3851,22 @@
 
                     // Changing Labels
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="company"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="company"]'
                     ).innerHTML = "Company name";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="industry"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="industry"]'
                     ).innerHTML = "Industry";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="fleet-size"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="fleet-size"]'
                     ).innerHTML = "Fleet size";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="country"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="country"]'
                     ).innerHTML = "Country";
                     document.querySelector(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="city"]'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="city"]'
                     ).innerHTML = "City";
                     document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="multiple_region"]`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper label[for="multiple_region"]`
                     ).innerHTML = `Does your company operate in multiple regions?<span>(Optional)</span>`;
 
                     // Privacy Policy Checkbox
@@ -3874,13 +3874,13 @@
                       var containerInterval = setInterval(function () {
                         if (
                           document.querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper > .stepCTAWrapper label > span:first-child`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper > .stepCTAWrapper label > span:first-child`
                           )
                         ) {
                           clearInterval(containerInterval);
                           document
                             .querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper > .stepCTAWrapper label > span:first-child`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form > div:nth-child(2) .fieldsWrapper > .stepCTAWrapper label > span:first-child`
                             )
                             .insertAdjacentHTML(
                               "beforeend",
@@ -3892,11 +3892,11 @@
 
                     if (
                       document.querySelectorAll(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country div[aria-haspopup]`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country div[aria-haspopup]`
                       ).length > 0
                     ) {
                       observeElementChanges(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country div[aria-haspopup]`,
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country div[aria-haspopup]`,
                         "childList",
                         function (mutation) {
                           if (
@@ -3907,7 +3907,7 @@
                             var stateInterval = setInterval(function () {
                               if (
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form  label#state-input-label`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form  label#state-input-label`
                                 )
                               ) {
                                 clearInterval(stateInterval);
@@ -3915,7 +3915,7 @@
                                 setTimeout(function () {
                                   document
                                     .querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
                                     )
                                     .parentElement.parentElement.parentElement.classList.add(
                                       "form-field",
@@ -3925,43 +3925,43 @@
                                     );
                                   countrySubFieldCorrection(
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form  label#state-input-label`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form  label#state-input-label`
                                     ),
                                     mutation.target.textContent
                                   );
                                   if (
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                                     )
                                   ) {
                                     document
                                       .querySelector(
-                                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                       )
                                       .classList.remove("fullWidth");
                                     document
                                       .querySelector(
-                                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                       )
                                       .classList.add("fullWidth");
                                   }
 
                                   if (
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                     )
                                   ) {
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                     ).style.display = "block";
                                   }
                                   document
                                     .querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                     )
                                     .after(
                                       document.querySelector(
-                                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                       )
                                     );
                                   controlDesktopDropdownActiveStates();
@@ -3972,20 +3972,20 @@
                           } else {
                             if (
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                               )
                             ) {
                               var countryLabelInterval = setInterval(
                                 function () {
                                   if (
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
                                     )
                                   ) {
                                     clearInterval(countryLabelInterval);
                                     document
                                       .querySelector(
-                                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
+                                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
                                       )
                                       .parentElement.parentElement.parentElement.classList.add(
                                         "form-field",
@@ -3995,11 +3995,11 @@
                                       );
                                     if (
                                       document.querySelector(
-                                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                       )
                                     ) {
                                       document.querySelector(
-                                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                       ).style.display = "none";
                                     }
                                   }
@@ -4012,23 +4012,23 @@
                                 .classList.remove("hiddenField");
                               if (
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                                 )
                               ) {
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                   )
                                   .classList.remove("fullWidth");
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                   )
                                   .classList.remove("fullWidth");
                               } else {
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                   )
                                   .classList.add("fullWidth");
                               }
@@ -4057,19 +4057,19 @@
                         if (
                           document
                             .querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                             )
                             .classList.contains("active")
                         ) {
                           document
                             .querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                             )
                             .classList.remove("active");
                         }
                         document
                           .querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                           )
                           .classList.remove("hiddenField");
 
@@ -4097,12 +4097,12 @@
                         } else {
                           document
                             .querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                             )
                             .classList.remove("hiddenField");
                           document
                             .querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                             )
                             .classList.add("fullWidth");
                         }
@@ -4112,11 +4112,11 @@
                     // Detect Industry Field Changes
                     if (
                       document.querySelectorAll(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry div[aria-haspopup]`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry div[aria-haspopup]`
                       ).length > 0
                     ) {
                       observeElementChanges(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry div[aria-haspopup]`,
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry div[aria-haspopup]`,
                         "childList",
                         function (mutation) {
                           var subindustryInterval = setInterval(function () {
@@ -4184,7 +4184,7 @@
                                 });
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry`
                                 )
                                 .insertAdjacentElement(
                                   "afterend",
@@ -4196,48 +4196,48 @@
                               if (
                                 !document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                   )
                                   .classList.contains("hiddenField") &&
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
                                 )
                               ) {
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                   )
                                   .classList.add("fullWidth");
                               } else if (
                                 !document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                   )
                                   .classList.contains("hiddenField") &&
                                 !document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
                                 )
                               ) {
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                   )
                                   .classList.remove("fullWidth");
                               } else if (
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                   )
                                   .classList.contains("hiddenField")
                               ) {
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
                                   )
                                   .classList.add("fullWidth");
                               } else {
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
                                 ).style.maxWidth = "100%";
                               }
                               adjustDesktopAutofillValues();
@@ -4250,7 +4250,7 @@
 
                     // Handling country dropdown select from tablet
                     var countrySelect = document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country select#country`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country select#country`
                     );
                     if (countrySelect) {
                       countrySelect.addEventListener(
@@ -4261,24 +4261,24 @@
                               changeSelectOnCountryChange("State");
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                 )
                                 .classList.remove("hiddenField");
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                 )
                                 .classList.remove("fullWidth");
                               handleCityFullWidth();
                               if (
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                                 )
                               ) {
                                 var stateInterval = setInterval(function () {
                                   if (
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                     )
                                   ) {
                                     clearInterval(stateInterval);
@@ -4291,24 +4291,24 @@
                               changeSelectOnCountryChange("Province");
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                 )
                                 .classList.remove("hiddenField");
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                 )
                                 .classList.remove("fullWidth");
                               handleCityFullWidth();
                               if (
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                                 )
                               ) {
                                 var stateInterval = setInterval(function () {
                                   if (
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                     )
                                   ) {
                                     clearInterval(stateInterval);
@@ -4321,24 +4321,24 @@
                               changeSelectOnCountryChange("Province");
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                 )
                                 .classList.remove("hiddenField");
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                 )
                                 .classList.remove("fullWidth");
                               handleCityFullWidth();
                               if (
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                                 )
                               ) {
                                 var stateInterval = setInterval(function () {
                                   if (
                                     document.querySelector(
-                                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                                     )
                                   ) {
                                     clearInterval(stateInterval);
@@ -4349,27 +4349,27 @@
                           } else {
                             document
                               .querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                               )
                               .classList.remove("hiddenField");
                             document
                               .querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                               )
                               .classList.add("fullWidth");
                             if (
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                               )
                             ) {
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                               ).style.display = "none";
                             }
                             setTimeout(function () {
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
                                 )
                                 .parentElement.parentElement.parentElement.classList.add(
                                   "form-field",
@@ -4379,17 +4379,17 @@
                                 );
                               if (
                                 document.querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                                 )
                               ) {
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                                   )
                                   .classList.remove("fullWidth");
                                 document
                                   .querySelector(
-                                    `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                                    `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                                   )
                                   .classList.remove("fullWidth");
                               }
@@ -4402,7 +4402,7 @@
                     function handleCityFullWidth() {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                         )
                         .classList.remove("fullWidth");
                     }
@@ -4410,7 +4410,7 @@
                     function changeSelectOnCountryChange(title) {
                       setTimeout(function () {
                         var elements = document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form select#state`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form select#state`
                         );
                         // if(!document.querySelector('.toShowTitle')){
                         //     elements.querySelector('option:first-child').insertAdjacentHTML('beforebegin', `<option class="toShowTitle" disabled></option>`)
@@ -4440,11 +4440,11 @@
                           "";
 
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                         ).style.display = "block";
                         document
                           .querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form label#country-input-label`
                           )
                           .parentElement.parentElement.parentElement.classList.add(
                             "form-field",
@@ -4457,22 +4457,22 @@
 
                         document
                           .querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.country`
                           )
                           .after(
                             document.querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.state`
                             )
                           );
 
                         if (
                           document.querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.subIndustry`
                           )
                         ) {
                           document
                             .querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.city`
                             )
                             .classList.add("fullWidth");
                         }
@@ -4481,7 +4481,7 @@
 
                     // Handling industry dropdown select from tablet
                     var industrySelect = document.querySelector(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form select#industry`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form select#industry`
                     );
                     if (industrySelect) {
                       industrySelect.addEventListener("change", function () {
@@ -4538,48 +4538,48 @@
                             if (
                               !document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                 )
                                 .classList.contains("hiddenField") &&
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
                               )
                             ) {
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                 )
                                 .classList.add("fullWidth");
                             } else if (
                               !document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                 )
                                 .classList.contains("hiddenField") &&
                               !document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.state .MuiFormControl-root`
                               )
                             ) {
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                 )
                                 .classList.remove("fullWidth");
                             } else if (
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city`
                                 )
                                 .classList.contains("hiddenField")
                             ) {
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
                                 )
                                 .classList.add("fullWidth");
                             } else {
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country`
                               ).style.maxWidth = "100%";
                             }
                           }
@@ -4591,14 +4591,14 @@
 
                     // Select the elements
                     const multipleRegionSelect = document.querySelectorAll(
-                      `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region label input`
+                      `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region label input`
                     );
 
                     if (multipleRegionSelect.length > 0) {
                       // Create an array of checkbox elements based on the options
                       const checkboxes = Array.from(
                         document.querySelectorAll(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region label`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region label`
                         )
                       )
                         .map(
@@ -4626,7 +4626,7 @@
                       // Insert the generated checkboxes after the form-field__wrapper1
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region  > .MuiGrid2-root`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region  > .MuiGrid2-root`
                         )
                         .insertAdjacentHTML(
                           "beforebegin",
@@ -4646,10 +4646,10 @@
                         );
 
                       const checkboxDropdown = document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .checkbox-dropdown`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .checkbox-dropdown`
                       );
                       const dropdownList = document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .checkbox-dropdown ul`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .checkbox-dropdown ul`
                       );
 
                       // Add click event listener to checkbox-dropdown
@@ -4681,13 +4681,13 @@
                         if (
                           !checkboxDropdown.contains(event.target) &&
                           document.querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
                           )
                         ) {
                           checkboxDropdown.classList.remove("is-active");
                           if (
                             document.querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
                             ).value !== ""
                           ) {
                             checkboxDropdown.parentElement.parentElement.parentElement.classList.remove(
@@ -4710,12 +4710,12 @@
                       // Uncheck all options on initial load
                       const uncheckAllMUIOptions = () => {
                         const multipleRegionSelect = document.querySelectorAll(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region label input`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region label input`
                         );
 
                         if (multipleRegionSelect.length > 0) {
                           const checkboxDropdown = document.querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .checkbox-dropdown`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .checkbox-dropdown`
                           );
                           const uncheckedCheckboxes =
                             checkboxDropdown.querySelectorAll(
@@ -4792,7 +4792,7 @@
                             // Reference the paragraph element and update its content
                             const optionsSelectedParagraph =
                               document.querySelector(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
                               );
                             if (optionsSelectedParagraph) {
                               optionsSelectedParagraph.value =
@@ -4804,7 +4804,7 @@
 
                       fieldsStatesLogic(
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .optionsSelected`
                         )
                       );
                     }
@@ -4812,7 +4812,7 @@
                     // Back Button logic
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
                       )
                       .addEventListener("click", function () {
                         bothFormsInitialSetup();
@@ -4824,28 +4824,28 @@
                     // Submit CTA fields focus logic
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type=submit]`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type=submit]`
                       )
                       .removeAttribute("disabled");
                     document
                       .querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="submit"]`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="submit"]`
                       )
                       .addEventListener("click", function (event) {
                         var checkfields = document.querySelectorAll(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.company input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry select,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.fleet-size input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.fleet-size select,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.country select,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.city select,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.state input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.state select,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.subIndustry input,
-                           .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field.subIndustry select`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.company input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.industry select,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.fleet-size input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.fleet-size select,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.country select,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.city select,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.state input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.state select,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.subIndustry input,
+                           .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field.subIndustry select`
                         );
                         var allFieldsFilled = 0;
                         var emptyFields = [];
@@ -4861,7 +4861,7 @@
                         if (
                           allFieldsFilled === checkfields.length &&
                           !document.querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field p.MuiFormHelperText-root`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field p.MuiFormHelperText-root`
                           )
                         ) {
                         } else {
@@ -4892,13 +4892,13 @@
                           }
                           if (
                             document.querySelector(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field p.MuiFormHelperText-root`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field p.MuiFormHelperText-root`
                             )
                           ) {
                             setTimeout(function () {
                               document
                                 .querySelector(
-                                  `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region`
+                                  `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.multiple_region`
                                 )
                                 .classList.add("active", "typing");
                             }, 100);
@@ -4908,33 +4908,33 @@
 
                     if (
                       !document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button.back`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button.back`
                       )
                     ) {
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
                         )
                         .removeAttribute("disabled");
                       document
                         .querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
                         )
                         .classList.add("back");
                       document.querySelector(
-                        `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
+                        `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper > div:first-child button`
                       ).innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"><path d="M11.4721 5L16.3332 10M16.3332 10L11.4721 15M16.3332 10L4.6665 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> Back`;
                     }
 
                     if (!document.querySelector(".secondfieldsWrapper .tags")) {
                       if (
                         document.querySelector(
-                          `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .secondfieldsWrapper h2`
+                          `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .secondfieldsWrapper h2`
                         )
                       ) {
                         document
                           .querySelector(
-                            `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .secondfieldsWrapper h2`
+                            `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .secondfieldsWrapper h2`
                           )
                           .insertAdjacentHTML(
                             "afterend",
@@ -4978,12 +4978,12 @@
                     }
                     if (
                       document.querySelector(
-                        '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
+                        '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
                       )
                     ) {
                       document
                         .querySelector(
-                          '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
+                          '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
                         )
                         .removeAttribute("disabled");
                     }
@@ -5004,12 +5004,12 @@
 
                     if (
                       document.querySelector(
-                        '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
+                        '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
                       )
                     ) {
                       document
                         .querySelector(
-                          '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
+                          '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .stepCTAWrapper button[type="button"]:first-child'
                         )
                         .removeAttribute("disabled");
                     }
@@ -5102,10 +5102,10 @@
                           var othersFilled = true;
                           document
                             .querySelectorAll(
-                              `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.first-name input,
-                               .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.last-name input,
-                               .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.email input,
-                               .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title input`
+                              `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.first-name input,
+                               .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.last-name input,
+                               .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.email input,
+                               .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.title input`
                             )
                             .forEach((visible) => {
                               if (visible.value == "") {
@@ -5115,8 +5115,8 @@
                           if (othersFilled) {
                             document
                               .querySelectorAll(
-                                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.phone-number,
-                                 .spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.self-attribution`
+                                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.phone-number,
+                                 .spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.self-attribution`
                               )
                               .forEach((hidden) => {
                                 hidden.classList.remove("hiddenField");
@@ -5134,7 +5134,7 @@
                 });
               }
               const form = document.querySelector(
-                `.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form`
+                `.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form`
               );
               if (form) {
                 form.addEventListener("submit", (e) => {
@@ -5151,14 +5151,14 @@
               function controlDesktopDropdownActiveStates() {
                 if (window.outerWidth >= 961) {
                   var inputsToCheck = document.querySelectorAll(
-                    '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.selectField input.MuiSelect-nativeInput:not([name="multiple_region_select__c"])'
+                    '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .fieldsWrapper .form-field.selectField input.MuiSelect-nativeInput:not([name="multiple_region_select__c"])'
                   );
 
                   inputsToCheck = Array.from(inputsToCheck);
 
                   function clickEventListener(event) {
                     if (
-                      !event.target.classList.contains("spz_t2025") &&
+                      !event.target.classList.contains("spz_t2027_V1") &&
                       !event.target.closest("button") &&
                       !event.target.closest(
                         '.stepCTAWrapper button[type="submit"]'
@@ -5191,7 +5191,7 @@
                 if (window.outerWidth >= 961) {
                   document
                     .querySelectorAll(
-                      '.spz_t2025 .formPopup[role="presentation"] form#generic-lead-form .form-field div[aria-haspopup="listbox"] + input'
+                      '.spz_t2027_V1 .formPopup[role="presentation"] form#generic-lead-form .form-field div[aria-haspopup="listbox"] + input'
                     )
                     .forEach((desktopField) => {
                       let previousValue = desktopField.value;
@@ -5225,7 +5225,7 @@
               let formContainerTries = 0;
               const formContainerInterval = setInterval(() => {
                 const formContainer = document.querySelector(
-                  '.spz_t2025 .formPopup[role="presentation"] [data-testid="SiteWideDemoFormTestID"]'
+                  '.spz_t2027_V1 .formPopup[role="presentation"] [data-testid="SiteWideDemoFormTestID"]'
                 );
                 if (formContainerTries === 70) {
                   clearInterval(formContainerInterval);
@@ -5234,7 +5234,7 @@
                 if (
                   formContainer &&
                   !document.querySelector(
-                    '.spz_t2025 .formPopup[role="presentation"] [data-testid="SiteWideDemoFormTestID"] .copySection'
+                    '.spz_t2027_V1 .formPopup[role="presentation"] [data-testid="SiteWideDemoFormTestID"] .copySection'
                   )
                 ) {
                   clearInterval(formContainerInterval);
