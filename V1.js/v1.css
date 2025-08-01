@@ -203,7 +203,7 @@ html {
   height: 515px;
   background-color: transparent;
 
-  background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2025/form_and_copy_bg_desktop.webp);
+  background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/desktop_bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -300,7 +300,7 @@ html {
   }
   .spz_t2027_V1 .formPopup form#generic-lead-form {
     flex-direction: column;
-    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2025/form_and_copy_bg_tablet.webp);
+    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/tablet_bg.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -347,18 +347,13 @@ html {
     margin-top: 0px;
     padding: 0px 24px 35px 24px;
     margin: 0 auto;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 12px;
   }
 
   .copySection {
     padding: 28px 16px 40px 16px;
     max-width: 586px;
     width: calc(100% - 32px);
-
-    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2025/form_and_copy_bg_mobile.webp);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
     border-radius: 0px 0px 12px 12px;
     overflow: hidden;
   }
@@ -1783,6 +1778,14 @@ display: none;
   }
   .spz_t2027_V1 .formPopup form#generic-lead-form {
     padding: 0px;
+
+    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/mobile_bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 0px;
+    padding: 56px 0px;
   }
   .spz_t2027_V1 .formPopup form#generic-lead-form h2 {
     font-size: 24px;
@@ -2469,10 +2472,10 @@ max-width: 288px;*/
 @media screen and (max-width: 767.98px) {
   .spz_t2027_V1 .formPopup {
     background-color: #eff2f7;
-    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2023/bg_v-3_mobile.webp);
+    /* background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/mobile_bg.webp);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
   .spz_t2027_V1 .formPopup .logo.tab-only {
     margin-bottom: 11px;
@@ -2510,7 +2513,7 @@ max-width: 288px;*/
     .formPopup
     div[aria-labelledby="popout-button-title"]
     .genericLeadFormParent {
-    padding: 56px 0px;
+    padding: 0px;
   }
 }
 
