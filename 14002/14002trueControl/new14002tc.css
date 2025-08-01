@@ -1,0 +1,8 @@
+/*Control Changes*/
+.spz_t14002_TC [data-testid="mobile-banner-container-test-id"] {
+  z-index: 999;
+}
+
+.spz_t14002_TC [data-testid="drawer-container"] {
+  z-index: 9999;
+}

@@ -1,0 +1,1466 @@
+* {
+  box-sizing: border-box;
+}
+.spz_t1014 nav,
+.spz_t1014 header,
+.spz_t1014 main#mainContent section:first-child,
+.spz_t1014 footer {
+  display: none;
+}
+.spz_t1014 {
+  overflow-x: hidden;
+  user-select: none;
+}
+.spz_t1014
+  main#mainContent
+  > div
+  > div
+  > section:nth-child(2):not(.formSection) {
+  display: none;
+}
+/*Form Styling*/
+
+.spz_t1014
+  .formWrapper
+  .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select
+  select {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid var(--Neutrals-N-3, #d1d6dd);
+  height: 54px;
+}
+.spz_t1014 form .MuiInputBase-root .MuiInputBase-input:focus-visible {
+  outline: none;
+}
+.spz_t1014
+  form
+  .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select.active.typing
+  select {
+  border: 1px solid #0078d3 !important;
+  border-radius: 5px;
+}
+.spz_t1014
+  .formWrapper
+  .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__selecthover {
+  border-color: var(--Accents-Accent-1, #0078d3) !important;
+}
+.spz_t1014 .formSection {
+  padding: 18px 0;
+  background: url("https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/1003/bg_1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.spz_t1014 .formSection .logo {
+  width: 150.628px;
+  height: 20px;
+  display: block;
+  position: fixed;
+  top: 20px;
+  left: 40px;
+  z-index: 10;
+}
+
+.spz_t1014 .formSection .banner {
+  background: url(https://res.cloudinary.com/spiralyze/image/upload/v1746447223/geotab/1019/badge_3.svg);
+  width: 286px;
+  height: 32px;
+  position: absolute;
+  background-size: contain;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.spz_t1014 .formSection .banner span {
+  font-weight: 700;
+}
+
+.spz_t1014 .formSection .tab-only {
+  display: none;
+}
+.spz_t1014
+  .formSection
+  .MuiGridLegacy-root[data-testid="customFormBackground"] {
+  min-height: calc(100vh - 36px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Test 1014 changes start*/
+.spz_t1014 .formWrapper {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: initial;
+  max-width: 986px;
+  background: transparent;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+
+  box-sizing: border-box !important;
+  padding: 0px;
+  margin: 76px 0px;
+  overflow: visible;
+  z-index: 2;
+}
+
+.spz_t1014 .formWrapper::after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  max-width: 986px;
+  width: 100%;
+  height: 498px;
+  border-radius: 12px;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
+  z-index: -1;
+}
+
+.spz_t1014 .formWrapper .formcontainer {
+  padding: 0;
+  padding: 64px 36px 40px !important;
+  background: var(--Neutrals-White, #fff);
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.spz_t1014 .formWrapper .copySection {
+  padding: 24px 16px 24px 32px;
+  max-width: 362px;
+  width: 100%;
+  height: 422px;
+  background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/1014/bg_for_testimonial_desktop.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.spz_t1014 .formWrapper .copySection .copySectionContainer > .copyAvatar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 14px 0px 32px 0px;
+}
+.spz_t1014
+  .formWrapper
+  .copySection
+  .copySectionContainer
+  > .copyAvatar
+  .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.spz_t1014
+  .formWrapper
+  .copySection
+  .copySectionContainer
+  > .copyAvatar
+  .stars {
+  width: 116px;
+  height: 20px;
+}
+.spz_t1014 .formWrapper .copySection .copySectionContainer > h4 {
+  position: relative;
+  color: var(--neutrals-n-1-primary, #3c5164);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+  margin: 0px 0px 12px 0px;
+}
+.spz_t1014 .formWrapper .copySection .copySectionContainer > h4::before {
+  position: absolute;
+  content: url(https://res.cloudinary.com/spiralyze/image/upload/v1747146854/geotab/1014/quote.svg);
+  width: 59px;
+  height: 49px;
+  top: -16px;
+  left: -10px;
+}
+
+.spz_t1014 .formWrapper .copySection .copySectionContainer > p {
+  color: var(--neutrals-n-1-primary, #3c5164);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  margin: 0px 0px 16px 0px;
+}
+
+.spz_t1014
+  .formWrapper
+  .copySection
+  .copySectionContainer
+  > .copySectionContact {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 0px;
+}
+
+.spz_t1014
+  .formWrapper
+  .copySection
+  .copySectionContainer
+  > .copySectionContact
+  h5 {
+  color: var(--neutrals-n-1-primary, #3c5164);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  margin: 0px 0px 2px 0px;
+}
+
+.spz_t1014
+  .formWrapper
+  .copySection
+  .copySectionContainer
+  > .copySectionContact
+  p {
+  color: var(--neutrals-n-2-secondary, #66788c);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  margin: 0;
+}
+
+@media (max-width: 1220px) {
+  .spz_t1014 .formWrapper {
+    margin: 76px 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .spz_t1014 .formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 560px;
+    background: #fff;
+    background-repeat: no-repeat;
+    margin: 76px 0px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
+  }
+  .spz_t1014 .formWrapper::after {
+    content: none;
+  }
+  .spz_t1014 .formWrapper .formcontainer {
+    max-width: 560px;
+    margin-left: unset;
+    padding: 64px 36px 40px 36px !important;
+    border-radius: 12px 12px 0px 0px;
+  }
+
+  .spz_t1014 .formWrapper .copySection {
+    padding: 23px 24px 24px 23px !important;
+    max-width: 512px;
+    height: 372px;
+    background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/1014/bg_for_testimonial_tablet.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 12px 12px;
+    margin-bottom: 22px;
+  }
+
+  .spz_t1014 .formWrapper .copySection .copySectionContainer > .copyAvatar {
+    margin: 0px 0px 32px 0px;
+  }
+}
+@media (max-width: 960px) {
+  .spz_t1014 .formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 560px;
+    background: #fff;
+    background-repeat: no-repeat;
+    margin: 76px 0px;
+  }
+  .spz_t1014 .formWrapper .formcontainer {
+    max-width: 560px;
+    margin-left: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .spz_t1014 .formWrapper {
+    margin: 96px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .spz_t1014 .formSection {
+  }
+  .spz_t1014 .formWrapper {
+    background: unset;
+    box-shadow: none;
+  }
+
+  .spz_t1014 .formWrapper .formcontainer {
+    margin-top: 0px;
+    padding: 64px 24px 32px 24px !important;
+  }
+
+  .spz_t1014 [data-testid="customFormBackground"] {
+    padding: 0px;
+  }
+
+  .spz_t1014 .formWrapper .copySection {
+    max-width: 100%;
+    padding: 24px !important;
+    background: unset;
+    background-color: #fff;
+    height: auto;
+  }
+  .spz_t1014 .formWrapper .copySection .copySectionContainer {
+    padding: 16px !important;
+    max-width: 512px;
+    height: 372px;
+    background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/1014/bg_for_testimonial_tablet.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 560px) {
+  .spz_t1014 .formWrapper .copySection {
+    padding: 2px 24px 24px 24px !important;
+    margin-bottom: 0px;
+  }
+  .spz_t1014 .formWrapper .copySection .copySectionContainer {
+    background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/1014/bg_for_testimonial_mobile.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16px 16px 0px 16px !important;
+    height: 353px;
+  }
+  .spz_t1014
+    .formWrapper
+    .copySection
+    .copySectionContainer
+    > .copyAvatar
+    .avatar {
+    width: 64px;
+    height: 64px;
+  }
+
+  .spz_t1014 .formWrapper .copySection .copySectionContainer > h4 {
+    color: var(--neutrals-n-1-primary, #3c5164);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+  }
+  .spz_t1014 .formWrapper .copySection .copySectionContainer > p {
+    color: var(--neutrals-n-1-primary, #3c5164);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+  }
+}
+/*Test 1014 changes ending*/
+.spz_t1014 .formWrapper .formHeading {
+  margin: 0;
+  max-width: 100% !important;
+}
+.spz_t1014 .formWrapper h2 {
+  color: #25477b;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+.spz_t1014 .formWrapper .formPara {
+  display: none;
+}
+.spz_t1014 .formWrapper .MuiGridLegacy-container {
+  -webkit-grid-gap: 20px;
+  grid-gap: 20px;
+}
+.spz_t1014 .formWrapper form .form-field.none,
+.spz_t1014 .formWrapper .privacyPolicy.none,
+.spz_t1014 .formWrapper .showComment.none {
+  display: none !important;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Adjust as needed */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease forwards;
+}
+.spz_t1014 .formWrapper form .form-field,
+.spz_t1014 .formWrapper .MuiGridLegacy-item {
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: calc(50% - 10px);
+  flex-basis: -webkit-calc(50% - 10px);
+  flex-basis: calc(50% - 10px);
+  position: relative;
+}
+.spz_t1014 .formWrapper form .form-field.subIndustry {
+  flex-basis: unset;
+  max-width: 100%;
+  width: 100%;
+}
+.spz_t1014 .formWrapper form .form-field.city {
+  max-width: 100%;
+  flex-basis: 100%;
+  display: none;
+}
+.spz_t1014 .formWrapper form .form-field.state + .city {
+  max-width: calc(50% - 10px);
+  flex-basis: calc(50% - 10px);
+  display: block;
+}
+.spz_t1014 .How_Did_You_Hear_About_Geotab__select select {
+  cursor: pointer;
+  width: 100% !important;
+}
+.spz_t1014 .How_Did_You_Hear_About_Geotab__select select option {
+  background: #fff;
+}
+.spz_t1014 .How_Did_You_Hear_About_Geotab__select select option:hover {
+  cursor: pointer;
+}
+.spz_t1014 .How_Did_You_Hear_About_Geotab__c {
+  display: none;
+}
+.spz_t1014 .multiple_region_select__c {
+  z-index: 9;
+}
+.spz_t1014 .submitWrapper {
+  order: 18;
+}
+.spz_t1014 form .MuiInputBase-root .MuiInputBase-input {
+  color: var(--Accents-T-1, #21325e);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 56px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  border: none;
+}
+.spz_t1014 form .MuiInputBase-root .MuiInputBase-input:focus-visible {
+  outline: none;
+}
+.spz_t1014
+  form
+  .MuiGridLegacy-item.error.active.typing
+  .MuiInputBase-root
+  fieldset {
+  border-color: #fe5a3f !important;
+}
+.spz_t1014 form .MuiGridLegacy-item.error.active.typing .MuiInputBase-root {
+  background: rgba(254, 90, 63, 0.04) !important;
+}
+.spz_t1014 form .MuiGridLegacy-item.error.active.typing label {
+  color: #fe5a3f !important;
+}
+.spz_t1014 form .MuiInputBase-root textarea.MuiInputBase-input {
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+.spz_t1014 form .MuiInputBase-root .MuiNativeSelect-select,
+.spz_t1014 form .MuiInputBase-root .MuiSelect-select,
+.spz_t1014 .How_Did_You_Hear_About_Geotab__select .MuiInputBase-input {
+  padding-right: 36px !important;
+}
+.spz_t1014 form .MuiInputBase-root input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+.spz_t1014 input:-internal-autofill-selected,
+.spz_t1014 form .MuiInputBase-root .MuiSelect-select:-webkit-autofill,
+.MuiSelect-select:-webkit-autofill:hover,
+.MuiSelect-select:-webkit-autofill:focus,
+.MuiSelect-select:-webkit-autofill:active,
+.spz_t1014 form .MuiInputBase-root select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.spz_t1014 .formWrapper fieldset span,
+.spz_t1014 .formWrapper .MuiGridLegacy-item fieldset span {
+  display: none;
+}
+.spz_t1014 form .MuiGridLegacy-item .MuiInputBase-root fieldset {
+  border-width: 1px;
+  border-color: var(--Neutrals-N-3, #d1d6dd);
+  /* height: 56px; */
+  top: 0;
+}
+.spz_t1014 form .MuiGridLegacy-item .MuiInputBase-root fieldset legend {
+  display: none;
+}
+.spz_t1014 .formWrapper label:not(.regionDropdownLabels) {
+  -webkit-transform: translate(16px, 18px) scale(1);
+  transform: translate(16px, 18px) scale(1);
+  letter-spacing: normal;
+  line-height: 140%;
+  position: absolute;
+}
+.spz_t1014 .active.typing.How_Did_You_Hear_About_Geotab__select label,
+.spz_t1014
+  .formWrapper
+  .active.typing.form-field.multiple_region_select__c
+  .MuiFormLabel-root {
+  color: var(--Accents-Accent-1, #0078d3);
+  transform: translate(12px, -9px) scale(0.85) !important;
+  background: white;
+  padding: 0 5px;
+  top: 0 !important;
+  left: 0 !important;
+}
+.spz_t1014
+  .formWrapper
+  .active.form-field.multiple_region_select__c
+  .MuiFormLabel-root {
+  color: #66788c;
+  transform: translate(12px, -9px) scale(0.85) !important;
+  background: white;
+  padding: 0 5px;
+  top: 0 !important;
+  left: 0 !important;
+}
+.spz_t1014 .active.How_Did_You_Hear_About_Geotab__select label,
+.spz_t1014 .active.multiple_region_select__c .MuiFormLabel-root {
+  transform: translate(12px, -9px) scale(0.85);
+  background: white;
+  padding: 0 5px;
+  top: 0 !important;
+  left: 0 !important;
+}
+.spz_t1014 form .MuiInputBase-root:not(.Mui-disabled):hover fieldset {
+  border-color: var(--Accents-Accent-1, #0078d3) !important;
+}
+.spz_t1014 form .MuiGridLegacy-item.active.typing .MuiInputBase-root fieldset {
+  border-color: var(--Accents-Accent-1, #0078d3) !important;
+}
+.spz_t1014 form .MuiGridLegacy-item.typing .MuiInputBase-root fieldset:after {
+  transform: translateY(-50%) rotate(180deg);
+}
+.spz_t1014 form .MuiGridLegacy-item.active .MuiInputBase-root fieldset {
+  border-color: var(--Neutrals-N-3, #d1d6dd);
+}
+.spz_t1014 form .MuiGridLegacy-item label.Mui-focused,
+.spz_t1014 form .MuiGridLegacy-item.active.typing label.MuiFormLabel-root {
+  color: var(--Accents-Accent-1, #0078d3);
+  transform: translate(12px, -9px) scale(0.85) !important;
+  padding: 0 5px;
+  background: rgba(0, 0, 0, 0);
+  background: #fff;
+}
+.spz_t1014 form .MuiGridLegacy-item label.Mui-focused:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.spz_t1014
+  form
+  .MuiGridLegacy-item.active.typing
+  label.MuiFormLabel-root:before {
+  content: "";
+  width: 100%;
+  height: 8px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.spz_t1014 form label.MuiFormLabel-filled {
+  transform: translate(12px, -9px) scale(0.85) !important;
+  background: white;
+  padding: 0 5px;
+}
+.spz_t1014 .formWrapper .form-field.multiple_region_select__c {
+  flex-basis: 100%;
+  transition: transform 5s;
+  transform: scaleY(1);
+  max-width: 100%;
+}
+.spz_t1014 .formWrapper .form-field.multiple_region_select__c label span {
+  color: #d1d6dd;
+}
+.spz_t1014.commentvisible .formWrapper .form-field.comments {
+  flex-basis: 100%;
+  transition: transform 5s;
+  transform: scaleY(1);
+  max-width: 100%;
+  display: block;
+  pointer-events: auto;
+}
+.spz_t1014 .formWrapper .form-field.comments {
+  transform: scaleY(0);
+  pointer-events: none;
+  display: none;
+}
+.spz_t1014 .MuiInputBase-root {
+  position: relative;
+  padding: 0;
+  border-radius: 5px;
+}
+.spz_t1014 .formWrapper .showComment .minus {
+  display: none;
+}
+.spz_t1014.commentvisible .formWrapper .showComment .minus {
+  display: inline-block;
+}
+.spz_t1014.commentvisible .formWrapper .showComment .plus {
+  display: none;
+}
+.spz_t1014 hr.MuiDivider-root {
+  display: none;
+}
+.spz_t1014 .Title__c fieldset:after,
+.spz_t1014 .fleet_size fieldset:after,
+.spz_t1014 .country fieldset:after,
+.spz_t1014 .MuiSelect-iconOutlined + fieldset:after,
+.spz_t1014 .MuiNativeSelect-icon + fieldset:after,
+.spz_t1014 .industry fieldset:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 13px;
+  background: url(https://res.cloudinary.com/spiralyze/image/upload/geotab/1001/chevron-down_1.svg);
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  transition: background 0.3s;
+  pointer-events: none;
+}
+.spz_t1014 .MuiSelect-nativeInput + svg,
+.spz_t1014 select + svg {
+  display: none;
+}
+.spz_t1014 .formWrapper .showComment {
+  color: #3c5164;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  width: fit-content;
+  cursor: pointer;
+  flex-basis: 100%;
+  transition: transform 5s;
+  transform: scaleY(1);
+  max-width: 100%;
+}
+.spz_t1014 .formWrapper .showComment span {
+  color: #66788c;
+}
+.spz_t1014 .formWrapper .showComment svg {
+  margin-right: 10px;
+  margin-bottom: -4px;
+  height: 20px;
+  width: 20px;
+}
+.spz_t1014 .formWrapper .MuiSelect-iconOutlined {
+  min-width: 24px;
+  pointer-events: none;
+  position: absolute;
+  right: 14px;
+}
+
+.spz_t1014 .formWrapper .regionWrapper {
+  margin: 0 !important;
+  padding: 0;
+}
+.spz_t1014 .formWrapper .regionWrapper h3 {
+  color: #3c5164;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 0 0 15px;
+}
+.spz_t1014 .formWrapper .regionWrapper h3 span {
+  color: #66788c;
+  font-weight: 400;
+}
+.spz_t1014 .formWrapper .regionWrapper .regionOptions {
+  display: flex;
+  -webkit-gap: 12px 28px;
+  gap: 12px 28px;
+  flex-wrap: wrap;
+}
+.spz_t1014 .formWrapper .regionWrapper .regionOption {
+  position: relative;
+}
+.spz_t1014 .formWrapper .regionWrapper .regionOption input {
+  display: none;
+}
+.spz_t1014 .formWrapper .regionWrapper .regionOptions label {
+  color: #66788c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  cursor: pointer;
+  height: 22px;
+}
+.spz_t1014 .formWrapper .regionWrapper .regionOption label:before {
+  content: "";
+  display: block;
+  min-width: 20px;
+  height: 20px;
+  background: url("https://res.cloudinary.com/spiralyze/image/upload/v1708432504/geotab/1001/checkbox.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.spz_t1014
+  .formWrapper
+  .regionWrapper
+  .regionOption
+  input:checked
+  + label:before {
+  background: url("https://res.cloudinary.com/spiralyze/image/upload/v1708432970/geotab/1001/checkedbox.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.spz_t1014 .formWrapper .submitWrapper {
+  margin: -4px 0 0 !important;
+  padding: 0;
+  flex-basis: 100%;
+  transition: transform 5s;
+  transform: scaleY(1);
+  max-width: 100%;
+}
+.spz_t1014 .formWrapper .submitWrapper button {
+  max-width: 220px;
+  width: 100%;
+  height: 56px;
+  margin: 7px auto 0;
+}
+.spz_t1014 .MuiPaper-root {
+  /* border-radius: 0px 0px 5px 5px; */
+  /* border: 1px solid var(--Accents-Accent-1, #0078d3); */
+  /* background: var(--Neutrals-White, #fff); */
+}
+.spz_t1014 .formWrapper .privacyPolicy {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.spz_t1014 .formWrapper .privacyPolicy label {
+  -webkit-transform: none;
+  transform: none;
+  position: relative;
+}
+.spz_t1014 .formWrapper .privacyPolicy .MuiCheckbox-root {
+  padding: 0;
+  margin-right: 0px;
+  background: none;
+}
+.spz_t1014 .formWrapper .privacyPolicy .MuiCheckbox-root .MuiTouchRipple-root {
+  min-width: 20px !important;
+  height: 20px;
+  position: relative;
+  border-radius: 0;
+}
+.spz_t1014 .formWrapper .privacyPolicy .MuiCheckbox-root svg {
+  display: none;
+}
+.spz_t1014
+  .formWrapper
+  .privacyPolicy
+  .MuiCheckbox-root
+  .MuiTouchRipple-root:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("https://res.cloudinary.com/spiralyze/image/upload/v1708432504/geotab/1001/checkbox.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.spz_t1014
+  .formWrapper
+  .privacyPolicy
+  .MuiCheckbox-root
+  input:checked
+  ~ .MuiTouchRipple-root:before {
+  background: url("https://res.cloudinary.com/spiralyze/image/upload/v1708432970/geotab/1001/checkedbox.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+.spz_t1014 .formWrapper .privacyPolicy p {
+  color: #3c5164;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: var(--neutrals-n-1-primary, #3c5164);
+  letter-spacing: normal;
+}
+.spz_t1014 .formWrapper .privacyPolicy p a {
+  text-decoration: none !important;
+  color: var(--Accents-Accent-1, #0078d3) !important;
+}
+.spz_t1014 .formWrapper .privacyPolicy p a:active,
+.spz_t1014 .formWrapper .privacyPolicy p a:hover {
+  color: #0059b3 !important;
+  text-decoration-line: underline !important;
+}
+.spz_t1014 .formWrapper .privacyPolicy .MuiGridLegacy-item {
+  max-width: 100%;
+}
+.spz_t1014 .grecaptcha-badge {
+  display: none !important;
+}
+.spz_t1014
+  .formWrapper
+  .form-field.multiple_region_select__c
+  .form-field__wrapper1 {
+  display: none;
+}
+.spz_t1014 .formSection .formWrapper .continueButton {
+  order: 8;
+}
+.spz_t1014 .formSection .formWrapper button[type="submit"],
+.spz_t1014 .formSection .formWrapper .continueButton {
+  border-radius: 6px;
+  background: #0078d3;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: normal;
+  border: 1px solid #0078d3 !important;
+  border: none;
+  width: 100%;
+  max-width: 220px;
+  height: 56px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 16px auto 0 !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: none;
+  grid-column: span 2;
+  padding: 0 24px 0 32px !important;
+}
+.spz_t1014 .formSection .formWrapper button[type="submit"] {
+  padding: 0 !important;
+  margin: 7px auto 0 !important;
+}
+.spz_t1014 .formSection .formWrapper button[type="submit"]:hover,
+.spz_t1014 .formSection .formWrapper .continueButton:hover {
+  background: #fff;
+  color: #0078d3;
+}
+.spz_t1014 section.MuiGridLegacy-root:not(.formSection),
+.spz_t1014 button[aria-label="Open Schedule a demo popout"] {
+  display: none;
+}
+.spz_t1014 .formWrapper .steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding-top: 5px;
+}
+.spz_t1014 .formWrapper .steps .step:first-child {
+  margin-right: 16px;
+}
+.spz_t1014 .formWrapper .step.active svg {
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 174, 255, 0.2);
+  box-shadow: 0px 0px 0px 5px rgba(0, 174, 255, 0.2);
+  border-radius: 100%;
+}
+.spz_t1014 .formWrapper .continue {
+  border-radius: 6px;
+  background: #0078d3;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: normal;
+  border: 1px solid #0078d3 !important;
+  padding: 14px 51.5px 14px 59.5px !important;
+  border: none;
+  width: 100%;
+  max-width: 220px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: none;
+  flex-basis: 100%;
+  transition: transform 5s;
+  transform: scaleY(1);
+  margin: 4px auto 0 !important;
+}
+.spz_t1014 .formWrapper .continue svg {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.spz_t1014 .formWrapper .continue svg {
+  margin-left: 9px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 20px;
+  height: 20px;
+}
+.spz_t1014 .formWrapper .continue:focus,
+.spz_t1014 .formWrapper .continue:hover {
+  background: #fff;
+  color: #0078d3;
+}
+.spz_t1014 .formWrapper .continue:focus path,
+.spz_t1014 .formWrapper .continue:hover path {
+  stroke: #0078d3;
+}
+.spz_t1014 .formWrapper .continue:focus svg,
+.spz_t1014 .formWrapper .continue:hover svg {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
+.spz_t1014 .formWrapper .step2Field,
+.spz_t1014 .formWrapper .showComment.step2Field,
+.spz_t1014 .formWrapper .privacyPolicy.step2Field,
+.spz_t1014 .formWrapper .submitWrapper.step2Field {
+  display: none;
+}
+.spz_t1014 .formWrapper form .form-field.industry > .subTitleField {
+  display: none !important;
+}
+@media screen and (min-width: 1900px) {
+  .spz_t1014 .formWrapper label:not(.regionDropdownLabels) {
+    -webkit-transform: translate(16px, 16px) scale(1);
+    transform: translate(16px, 16px) scale(1);
+  }
+  .spz_t1014 .formWrapper .privacyPolicy label {
+    -webkit-transform: translate(3px, 4px) scale(1);
+    transform: translate(3px, 4px) scale(1);
+  }
+  .spz_t1014 .active.How_Did_You_Hear_About_Geotab__select label,
+  .spz_t1014 .active.multiple_region_select__c .MuiFormLabel-root {
+    -webkit-transform: translate(12px, -9px) scale(0.85);
+    transform: translate(12px, -9px) scale(0.85);
+  }
+}
+@media screen and (max-width: 960px) {
+  .spz_t1014
+    .formSection
+    .MuiGridLegacy-root[data-testid="customFormBackground"] {
+    padding: 0 10px;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .MuiFormLabel-root {
+    /* transform: translate(14px, 16px) scale(0.97) !important; */
+    pointer-events: none;
+    z-index: 10 !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .form-field__wrapper1.activated:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13px;
+    background: url(https://res.cloudinary.com/spiralyze/image/upload/geotab/1001/chevron-down_1.svg);
+    background-size: cover;
+    -webkit-transition: all 0.3s;
+    transition: background 0.3s;
+    z-index: 10;
+    pointer-events: none;
+  }
+  .spz_t1014
+    .formWrapper
+    .active.typing.form-field.multiple_region_select__c
+    .form-field__wrapper1.activated:after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown {
+    border-radius: 5px;
+    border: 1px solid #d1d6dd;
+    padding: 15px 35px 15px 15px;
+    position: relative;
+    margin: 0 auto;
+    user-select: none;
+    height: 56px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .spz_t1014 .formWrapper .form-field.typing .checkbox-dropdown {
+    border-color: #0078d3;
+  }
+  .spz_t1014 .formWrapper .form-field.typing .checkbox-dropdown.is-active {
+    border-radius: 5px 5px 0px 0px;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown input.optionsSelected {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    overflow: hidden;
+    color: #21325e;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 0;
+    border: none;
+    background: #fff;
+    pointer-events: none;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    position: absolute;
+    top: 100%;
+    border: inherit;
+    left: -1px;
+    right: -1px;
+    opacity: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    pointer-events: none;
+    background: #fff;
+    z-index: 10;
+    height: 140px;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li:first-child {
+    pointer-events: none;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li:first-child label p {
+    padding: 0px 16px !important;
+    color: #66788c !important;
+    font-style: italic;
+    opacity: 0.38;
+    pointer-events: none;
+  }
+  .spz_t1014
+    .formWrapper
+    .checkbox-dropdown-list
+    li:first-child
+    label
+    p:before {
+    display: none !important;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list input {
+    height: unset;
+    margin: 0;
+    margin-right: 10px;
+    display: none;
+  }
+  .spz_t1014 .formWrapper .is-active .checkbox-dropdown-list {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label p {
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #66788c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 100%;
+    padding: 9px 16px !important;
+    margin: 0 !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label input:checked + p {
+    background: #f8fafc;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label p:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2001/checkbox_webp.webp");
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+  }
+  .spz_t1014
+    .formWrapper
+    .checkbox-dropdown-list
+    li
+    label
+    input:checked
+    + p:before {
+    background: url("https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2001/checkbox_1_webp.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label:before {
+    display: none;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label p:hover {
+    background-color: #f8fafc;
+  }
+  .spz_t1014 .formWrapper .checkbox-dropdown-list li label p:hover p {
+    color: #3c5164;
+  }
+}
+@media (max-width: 960px) {
+  .spz_t1014 .logo,
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .MuiInputBase-root,
+  .spz_t1014 .checkbox-dropdown svg {
+    display: none !important;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .form-field__wrapper1.activated {
+    display: block;
+  }
+}
+@media screen and (max-width: 679.98px) {
+  .spz_t1014
+    .formWrapper
+    .form-field.formWrapper
+    .form-field.multiple_region_select__c
+    .MuiFormLabel-root {
+    padding-right: 30px;
+    overflow: visible;
+    white-space: normal;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .typing
+    .MuiFormLabel-root,
+  .spz_t1014 .form-field.multiple_region_select__c.active .MuiFormLabel-root {
+    max-width: -webkit-calc(100% - 760px);
+    max-width: calc(100% - 76px);
+    transform: translate(12px, -9px) scale(0.75) !important;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .typing
+    .MuiFormLabel-root,
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c.active
+    .MuiFormLabel-root {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    padding-right: 5px;
+    transform: translate(12px, -9px) scale(0.85) !important;
+    max-width: 100% !important;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .MuiFormLabel-root {
+    max-width: -webkit-calc(100% - 60px);
+    max-width: calc(100% - 60px) !important;
+  }
+  .spz_t1014 .active.How_Did_You_Hear_About_Geotab__select label,
+  .spz_t1014 .active.multiple_region_select__c .MuiFormLabel-root {
+    transform: translate(12px, -7px) scale(0.75) !important;
+    background: white;
+    padding: 0 5px;
+    max-width: 230px;
+  }
+}
+@media (max-width: 555px) {
+  .spz_t1014 .formSection {
+    background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/1003/bg_mobile.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field.multiple_region_select__c
+    .MuiFormLabel-root {
+    transform: translate(14px, 6px) scale(1) !important;
+    overflow: visible !important;
+    white-space: pre-wrap !important;
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .spz_t1014 .formSection {
+    padding: 18px 0;
+  }
+  .spz_t1014 .formWrapper {
+    margin: 58px 0;
+    padding: 0px 16px;
+  }
+  .spz_t1014
+    .formWrapper
+    form
+    .form-field.How_Did_You_Hear_About_Geotab__select {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+
+  .spz_t1014 .formSection .tab-only {
+    display: block;
+    max-width: 290px;
+    height: 48px;
+    top: 10px;
+    position: unset;
+    width: 100%;
+    margin: 0 auto 22px;
+  }
+  .spz_t1014 .formWrapper .steps {
+    margin-bottom: 14px;
+  }
+  .spz_t1014
+    .formSection
+    .MuiGridLegacy-root[data-testid="customFormBackground"] {
+    padding: 0px;
+    justify-content: center;
+  }
+  .spz_t1014 .formWrapper h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  .spz_t1014 .formWrapper form .form-field,
+  .spz_t1014 .formWrapper .MuiGridLegacy-item,
+  .spz_t1014 .formWrapper form .form-field.state + .city {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+  .spz_t1014 form .MuiGridLegacy-item label {
+    font-size: 16px !important;
+  }
+  .spz_t1014 form label.MuiFormLabel-filled,
+  .spz_t1014 form .MuiGridLegacy-item label.Mui-focused,
+  .spz_t1014 form .MuiGridLegacy-item.active.typing label.MuiFormLabel-root {
+    transform: translate(12px, -7px) scale(0.75) !important;
+  }
+  .spz_t1014 .formWrapper .form-field.multiple_region_select__c,
+  .spz_t1014 .formWrapper .form-field.multiple_region_select__c div {
+    height: 55px;
+    position: relative;
+    z-index: 9;
+  }
+  .spz_t1014
+    .formWrapper
+    .form-field:nth-child(13).How_Did_You_Hear_About_Geotab__c,
+  .spz_t1014 .formWrapper form .form-field:nth-child(11).city,
+  .spz_t1014 .formWrapper form .form-field:nth-child(12).city {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+  .spz_t1014 .formWrapper .privacyPolicy p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .spz_t1014 .formWrapper .continue {
+    max-width: 100%;
+    height: 48px;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 2px auto 0 !important;
+  }
+  .spz_t1014 .formSection .formWrapper button[type="submit"],
+  .spz_t1014 .formSection .formWrapper .continueButton {
+    max-width: 100%;
+    height: 48px;
+    padding: 0 !important;
+  }
+}
+
+.spz_t1014 .formWrapper .privacyPolicy .MuiCheckbox-root .checkboxPrivacy {
+  width: 20px;
+  height: 20px;
+  background: url("https://res.cloudinary.com/spiralyze/image/upload/v1707992010/geotab/2002/checkbox.svg");
+  background-size: 20px;
+  background-position: center;
+  margin-right: 10px;
+  position: relative;
+  top: -1px;
+}
+.spz_t1014
+  .formWrapper
+  .privacyPolicy
+  .MuiCheckbox-root
+  .checkboxPrivacy
+  ~ span {
+  display: none;
+}
+.spz_t1014
+  .formWrapper
+  .privacyPolicy
+  .MuiCheckbox-root
+  .checkboxPrivacy
+  ~ .checkboxPrivacy {
+  display: none;
+}
+.spz_t1014
+  .formWrapper
+  .privacyPolicy
+  .MuiCheckbox-root
+  input:checked
+  ~ .checkboxPrivacy {
+  background-image: url("https://res.cloudinary.com/spiralyze/image/upload/v1707992012/geotab/2002/checkbox_1.svg");
+}
+.spz_t1014 .formWrapper .rating {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  margin: 32px 0 0;
+}
+.spz_t1014 .How_Did_You_Hear_About_Geotab__select fieldset {
+  border: unset;
+  padding: 0px;
+}
+
+.spz_t1014 .How_Did_You_Hear_About_Geotab__select label {
+  z-index: 999;
+  transform: translate(-3px, -10px) scale(0.85) !important;
+  background: white;
+  padding: 0 5px;
+  color: #66788c;
+  font-size: 16px;
+}
+
+.spz_t1014
+  form
+  .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select
+  label.Mui-focused,
+.spz_t1014
+  form
+  .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select.active.typing
+  label.MuiFormLabel-root {
+  transform: translate(-3px, -10px) scale(0.85) !important;
+}
+@media (min-width: 1900px) {
+  body.spz_t1014 .How_Did_You_Hear_About_Geotab__select label {
+    font-size: 18px;
+    transform: translate(-5px, -10px) scale(0.85) !important;
+  }
+  body.spz_t1014
+    form
+    .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select
+    label.Mui-focused,
+  body.spz_t1014
+    form
+    .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select.active.typing
+    label.MuiFormLabel-root {
+    transform: translate(-5px, -10px) scale(0.85) !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .spz_t1014 .active.How_Did_You_Hear_About_Geotab__select label {
+    transform: translate(-13px, -10px) scale(0.75) !important;
+  }
+  .spz_t1014
+    form
+    .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select
+    label.Mui-focused,
+  .spz_t1014
+    form
+    .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select.active.typing
+    label.MuiFormLabel-root {
+    transform: translate(-13px, -10px) scale(0.75) !important;
+  }
+  .spz_t1014
+    .formWrapper
+    .MuiGridLegacy-item.How_Did_You_Hear_About_Geotab__select
+    select {
+    height: 56px;
+  }
+}
