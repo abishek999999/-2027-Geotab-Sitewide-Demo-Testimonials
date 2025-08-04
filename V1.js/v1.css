@@ -242,56 +242,103 @@ html {
   box-sizing: border-box;
   margin: auto 0px;
 }
-.copySection h1 {
-  color: #25477b;
-  font-size: 36px;
+.copySection .copyHeaderSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.copySection .copyHeaderSection h4 {
+  color: #0078d3;
+  font-family: Roboto;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%;
-  margin: 0px 0px 36px 0px;
-}
-
-.copySection .copySectionContainer.dashCams h1,
-.copySection .copySectionContainer.softwarePackage h1 {
-  font-size: 32px;
-}
-
-.copySection .checklists {
-  text-decoration: none;
-  list-style: none;
-  padding-left: 38px;
+  line-height: 120%; /* 52.8px */
   margin: 0px;
 }
 
-.copySection .checklists li {
+.copySection .copyHeaderSection p {
+  color: #25477b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-left: 12px;
+}
+
+.copySection .copyDescription {
+  color: #3c5164;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0px;
+  margin-bottom: 56px;
+}
+
+.copySection .copyFooterSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copySection .copyFooterSectionContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.copySection .copyFooterSectionContact strong {
+  color: #3c5164;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.copySection .copyFooterSectionContact span {
   color: #66788c;
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
 }
 
-.copySection .checklists li {
-  position: relative;
-}
-.copySection .checklists li::before {
-  position: absolute;
-  content: "";
-  left: -37px;
-  width: 20px;
-  height: 24px;
-  background: url(https://res.cloudinary.com/spiralyze/image/upload/v1752142317/geotab/2025/icon_2.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.copySection .checklists li:not(:last-child) {
-  margin-bottom: 23.5px;
+.copySection .siteWide .copyFooterSection img {
+  width: 139px;
+  height: 40px;
 }
 
-.copySection .checklists li span {
-  font-weight: 700;
-  color: #3c5164;
+.copySection .dashCams .copyFooterSection img {
+  width: 128px;
+  height: 48px;
+}
+
+.copySection .vehicleTracking .copyFooterSection img {
+  width: 136.954px;
+  height: auto;
+}
+
+.copySection .fleetManagement .copyFooterSection img {
+  width: 94px;
+  height: auto;
+}
+
+.copySection .softwarePackage .copyFooterSection img {
+  width: 116px;
+  height: auto;
+}
+
+.copySection .eld .copyFooterSection img {
+  width: 83px;
+  height: auto;
 }
 
 @media (max-width: 1300px) {
@@ -322,12 +369,6 @@ html {
     margin-left: 0px;
     margin-top: -36px;
   }
-
-  .copySection {
-    padding: 40px 32px 48px 32px;
-    height: auto;
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 767px) {
@@ -356,29 +397,6 @@ html {
     width: calc(100% - 32px);
     border-radius: 0px 0px 12px 12px;
     overflow: hidden;
-  }
-
-  .copySection h1 {
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin: 0px 0px 24px 0px;
-
-    color: var(--accents-t-2-main-headlines, #25477b);
-  }
-
-  .copySection .copySectionContainer.dashCams h1,
-  .copySection .copySectionContainer.softwarePackage h1 {
-    font-size: 28px;
-  }
-
-  .copySection .copySectionContainer.vehicleTracking h1 {
-    font-size: 32px;
-  }
-
-  .copySection .checklists li:not(:last-child) {
-    margin-bottom: 16px;
   }
 }
 /*Test 2025 test update End*/

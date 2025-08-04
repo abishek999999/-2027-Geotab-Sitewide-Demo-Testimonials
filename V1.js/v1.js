@@ -2,7 +2,7 @@
   const dataTemplate = {
     COPY: {
       dashCams: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer dashCams">
           <div class="copyHeaderSection">
             <h4>30%</h4>
             <p>
@@ -29,7 +29,7 @@
         </div>
       `,
       eld: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer eld">
           <div class="copyHeaderSection">
             <h4>32%</h4>
             <p>
@@ -56,7 +56,7 @@
         </div>
       `,
       fleetManagement: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer fleetManagement">
           <div class="copyHeaderSection">
             <h4>50%</h4>
             <p>
@@ -83,7 +83,7 @@
         </div>
       `,
       siteWide: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer siteWide">
           <div class="copyHeaderSection">
             <h4>50%</h4>
             <p>
@@ -110,7 +110,7 @@
         </div>
       `,
       softwarePackage: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer softwarePackage">
           <div class="copyHeaderSection">
             <h4>35%</h4>
             <p>
@@ -137,7 +137,7 @@
         </div>
       `,
       vehicleTracking: `
-        <div class="copySectionContainer">
+        <div class="copySectionContainer vehicleTracking">
           <div class="copyHeaderSection">
             <h4>20%</h4>
             <p>
@@ -223,7 +223,7 @@
       window.location.pathname === "/fleet-management-solutions/eld/"
     ) {
       return dataTemplate.TAGS.eld;
-    } else if (window.location.pathname === "/fleet-management-solutions/") {
+    } else if (window.location.pathname === "/fleet-management-software/") {
       return dataTemplate.TAGS.fleetManagement;
     } else if (
       window.location.pathname === "/software-packages/" ||
@@ -249,7 +249,7 @@
       window.location.pathname === "/fleet-management-solutions/eld/"
     ) {
       return dataTemplate.COPY.eld;
-    } else if (window.location.pathname === "/fleet-management-solutions/") {
+    } else if (window.location.pathname === "/fleet-management-software/") {
       return dataTemplate.COPY.fleetManagement;
     } else if (
       window.location.pathname === "/software-packages/" ||
