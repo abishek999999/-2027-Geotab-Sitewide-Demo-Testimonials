@@ -2,127 +2,165 @@
   const dataTemplate = {
     COPY: {
       dashCams: `
-        <div class="copySectionContainer dashCams">
-          <h1>Boost safety and accountability with fleet dash cams</h1>
-          <ul class="checklists">
-            <li class="checklist">
-              <span>HD footage.</span> Capture clear HD footage inside and outside the
-              vehicle. Low light and night vision. Automatically upload to a secure
-              cloud.
-            </li>
-            <li class="checklist">
-              <span>Driver safety.</span> Send drivers in-cab alerts for risky
-              behaviors, like harsh braking or lane departures. Automate personalized
-              coaching.
-            </li>
-            <li class="checklist">
-              <span>Event capture.</span> Auto-record events, like speeding, collisions,
-              sudden stops, and seatbelt violations. Search clips. Exonerate drivers not
-              at fault.
-            </li>
-          </ul>
+        <div class="copySectionContainer">
+          <div class="copyHeaderSection">
+            <h4>30%</h4>
+            <p>
+              reduction in <br />
+              insurance premiums
+            </p>
+          </div>
+          <p class="copyDescription">
+            It’s enabled us to capture incidents with HD footage and exonerate our
+            drivers. A really good move.
+          </p>
+          <div class="copyFooterSection">
+            <div class="copyFooterSectionContact">
+              <strong>Leslie Tarble</strong>
+              <span>President and Co-Owner</span>
+            </div>
+            <img
+              src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/logo-2.webp"
+              alt="company logo"
+              title="company logo"
+              draggable="false"
+            />
+          </div>
         </div>
       `,
       eld: `
-      <div class="copySectionContainer">
-        <h1>Streamline ELD compliance</h1>
-        <ul class="checklists">
-          <li class="checklist">
-            <span>HOS reporting.</span> Auto-record driving hours & rest periods.
-            Track HOS status. 100+ rulesets & exemptions for the U.S. & Canada.
-          </li>
-          <li class="checklist">
-            <span>Log management.</span> Track unassigned logs. Send drivers alerts
-            when they are near hour limits. Reminders to verify logs.
-          </li>
-          <li class="checklist">
-            <span>Vehicle inspections.</span> Let drivers fill out DVIRs via app. Get
-            notifications for vehicle defects and missed inspections.
-          </li>
-        </ul>
-      </div>
+        <div class="copySectionContainer">
+          <div class="copyHeaderSection">
+            <h4>32%</h4>
+            <p>
+              increase in <br />
+              ELD compliance
+            </p>
+          </div>
+          <p class="copyDescription">
+            Plug-and-play, highly customizable, and supports our most sustainable fleet
+            possible.
+          </p>
+          <div class="copyFooterSection">
+            <div class="copyFooterSectionContact">
+              <strong>Justin Quan</strong>
+              <span>Fleet Business Analyst</span>
+            </div>
+            <img
+              src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/logo-6.webp"
+              alt="company logo"
+              title="company logo"
+              draggable="false"
+            />
+          </div>
+        </div>
       `,
       fleetManagement: `
         <div class="copySectionContainer">
-          <h1>Track, manage, and optimize your entire fleet</h1>
-          <ul class="checklists">
-            <li class="checklist">
-              <span>Fleet tracking software.</span> Track vehicles, fuel consumption,
-              and engine health. Auto-log hours and generate ELD reports. Self-serve
-              DVIRs. One platform.
-            </li>
-            <li class="checklist">
-              <span>Driver safety.</span> Monitor driver behavior, including hard
-              acceleration, braking, seatbelts, and idling. Send drivers instant alerts
-              and coaching.
-            </li>
-            <li class="checklist">
-              <span>Fleet insights.</span> Get AI recommendations based on data from 3
-              million assets. Improve fuel efficiency, reduce downtime, cut costs, and
-              more.
-            </li>
-          </ul>
+          <div class="copyHeaderSection">
+            <h4>50%</h4>
+            <p>
+              reduction in <br />
+              idle time
+            </p>
+          </div>
+          <p class="copyDescription">
+            Lets us track exactly where vehicles are. We can pull diagnostics remotely.
+            Idle times have been cut in half.
+          </p>
+          <div class="copyFooterSection">
+            <div class="copyFooterSectionContact">
+              <strong>Jeremy Estses</strong>
+              <span>Fleet Manager</span>
+            </div>
+            <img
+              src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/logo-4.webp"
+              alt="company logo"
+              title="company logo"
+              draggable="false"
+            />
+          </div>
         </div>
       `,
       siteWide: `
         <div class="copySectionContainer">
-          <h1>Boost fleet efficiency and safety, while reducing costs</h1>
-          <ul class="checklists">
-            <li class="checklist">
-              <span>Vehicle telematics.</span> Track driver behavior, fuel consumption,
-              engine health, etc. Optimize with AI recommendations.
-            </li>
-            <li class="checklist">
-              <span>Route optimization.</span> Auto-detect the fastest routes and
-              dispatch drivers based on location. Plan multiple stops. Instant
-              rerouting.
-            </li>
-            <li class="checklist">
-              <span>Asset tracking.</span> Monitor asset locations in real time.
-              Trailers, containers, generators, and more. Get maintenance reminders.
-            </li>
-          </ul>
+          <div class="copyHeaderSection">
+            <h4>50%</h4>
+            <p>
+              reduction in <br />
+              monthly idling costs
+            </p>
+          </div>
+          <p class="copyDescription">
+            A game changer. It’s helped us monitor fleet operations in a way we couldn’t
+            get from any one else.
+          </p>
+          <div class="copyFooterSection">
+            <div class="copyFooterSectionContact">
+              <strong>Nick Donohoe</strong>
+              <span>Director of Logistics</span>
+            </div>
+            <img
+              src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/logo-1.webp"
+              alt="company logo"
+              title="company logo"
+              draggable="false"
+            />
+          </div>
         </div>
       `,
       softwarePackage: `
-        <div class="copySectionContainer softwarePackage">
-          <h1>Boost fleet efficiency and safety with next-gen telematics</h1>
-          <ul class="checklists">
-            <li class="checklist">
-              <span>Vehicle telematics.</span> Track location, driver behavior, engine
-              health, fuel consumption, etc. Optimize with AI fleet insights.
-            </li>
-            <li class="checklist">
-              <span>Driver safety.</span> Detect risky driver behavior. Send in-cab
-              alerts for idling, harsh breaking, seatbelt use, etc. Real-time coaching.
-            </li>
-            <li class="checklist">
-              <span>Plug-and-play device.</span> Just plug the GO device into your
-              OBD-II port. No professional installation needed.
-            </li>
-          </ul>
+        <div class="copySectionContainer">
+          <div class="copyHeaderSection">
+            <h4>35%</h4>
+            <p>
+              increase in <br />
+              fuel economy
+            </p>
+          </div>
+          <p class="copyDescription">
+            It’s helped us maximize our business, protect our employees, and give our
+            customers the best service possible.
+          </p>
+          <div class="copyFooterSection">
+            <div class="copyFooterSectionContact">
+              <strong>Stephen Wolstenholme</strong>
+              <span>Head of Fleet</span>
+            </div>
+            <img
+              src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/logo-5.webp"
+              alt="company logo"
+              title="company logo"
+              draggable="false"
+            />
+          </div>
         </div>
       `,
       vehicleTracking: `
-        <div class="copySectionContainer vehicleTracking">
-          <h1>
-            Track advanced <br />
-            telematics in real-time
-          </h1>
-          <ul class="checklists">
-            <li class="checklist">
-              <span>Telematics.</span> Track vehicle locations, speed, idling, and
-              mileage. Monitor vehicle health and prevent breakdowns.
-            </li>
-            <li class="checklist">
-              <span>Safety.</span> Monitor hard acceleration, braking, seatbelts, and
-              idling. Send alerts to drivers and fleet managers.
-            </li>
-            <li class="checklist">
-              <span>Easy to Install.</span> Just plug into the ODB II port.
-              Automatically sends data to fleet managers. Over-the-air updates.
-            </li>
-          </ul>
+        <div class="copySectionContainer">
+          <div class="copyHeaderSection">
+            <h4>20%</h4>
+            <p>
+              reduction in <br />
+              fuel costs
+            </p>
+          </div>
+          <p class="copyDescription">
+            Geotab’s rich telematics data makes day-to-day management of our projects
+            more agile.
+          </p>
+          <div class="copyFooterSection">
+            <div class="copyFooterSectionContact">
+              <strong>Diego Alvarez Leon</strong>
+              <span>Renting - Tenders Department</span>
+            </div>
+            <img
+              src="https://res.cloudinary.com/spiralyze/image/upload/v1753372015/geotab/2027/logo-3.svg"
+              alt="company logo"
+              title="company logo"
+              draggable="false"
+            />
+          </div>
         </div>
       `,
     },
