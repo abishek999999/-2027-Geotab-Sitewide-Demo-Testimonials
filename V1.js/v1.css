@@ -219,7 +219,6 @@ html {
   width: 586px;
   height: min-content;
   padding: 20px 36px 38px 36px;
-  margin-left: -37px;
 }
 .spz_t2027_V1 .formPopup form#generic-lead-form > div:nth-of-type(2) > div {
   box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
@@ -228,7 +227,6 @@ html {
   width: 586px;
   height: min-content;
   padding: 20px 36px 38px 36px;
-  margin-left: -37px;
 }
 
 .copySection * {
@@ -236,8 +234,8 @@ html {
 }
 
 .copySection {
-  padding: 30px 40px;
-  max-width: 572px;
+  padding: 30px 48px;
+  max-width: 536px;
   width: 100%;
   box-sizing: border-box;
   margin: auto 0px;
@@ -313,12 +311,12 @@ html {
 
 .copySection .siteWide .copyFooterSection img {
   width: 139px;
-  height: 40px;
+  height: auto;
 }
 
 .copySection .dashCams .copyFooterSection img {
   width: 128px;
-  height: 48px;
+  height: auto;
 }
 
 .copySection .vehicleTracking .copyFooterSection img {
@@ -351,7 +349,7 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 650px;
+    max-width: 677px;
     width: 100%;
     height: auto;
     padding: 0px;
@@ -368,6 +366,11 @@ html {
     width: 586px;
     margin-left: 0px;
     margin-top: -36px;
+  }
+  .copySection {
+    padding: 56px 44px 65px 47px;
+    margin: auto 0px;
+    max-width: 100%;
   }
 }
 
@@ -392,11 +395,21 @@ html {
   }
 
   .copySection {
-    padding: 28px 16px 40px 16px;
+    padding: 48px 0px 9px 0px;
     max-width: 586px;
     width: calc(100% - 32px);
     border-radius: 0px 0px 12px 12px;
     overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: auto;
+  }
+
+  .copySection .copyDescription {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 40px;
   }
 }
 /*Test 2025 test update End*/
@@ -1804,6 +1817,9 @@ display: none;
 
     border-radius: 0px;
     padding: 56px 0px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
   }
   .spz_t2027_V1 .formPopup form#generic-lead-form h2 {
     font-size: 24px;
@@ -2998,12 +3014,6 @@ max-width: 288px;*/
     background-position: center;
     background-repeat: no-repeat;
   }
-
-  .spz_t2027RD_V1 .formWrapper .copySection {
-    padding: 40px 42px 15px 45px;
-    height: auto;
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 767px) {
@@ -3014,12 +3024,6 @@ max-width: 288px;*/
 
   .spz_t2027RD_V1 .formSection .formWrapper::after {
     content: none;
-  }
-
-  .spz_t2027RD_V1 .formWrapper .copySection {
-    background-color: #eff2f7;
-    padding: 28px 16px 36px 16px;
-    max-width: 586px;
   }
 
   .spz_t2027RD_V1 .formSection .formWrapper .steps {
@@ -3951,9 +3955,9 @@ max-width: 288px;*/
     padding: 0px;
   }
   .spz_t2027RD_V1 .formSection .formWrapper {
-    padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    padding: 0px;
   }
   .spz_t2027RD_V1 .formSection .formWrapper div[data-testid="childContainer"] {
     grid-template-columns: 1fr;
@@ -3976,7 +3980,8 @@ max-width: 288px;*/
   .spz_t2027RD_V1 .formSection .formWrapper .formWrapperContainer {
     padding: 0px 24px 35px;
     width: calc(100% - 32px);
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 12px;
+    margin-top: 0px;
   }
   .spz_t2027RD_V1 .formWrapperContainer .logo {
     display: none;
@@ -4102,6 +4107,10 @@ max-width: 288px;*/
   }
   .spz_t2027RD_V1 .formSection .formWrapper .fieldsWrapper {
     grid-column: span 1 !important;
+  }
+
+  .spz_t2027RD_V1 .geotabLogo a.logo {
+    padding: 0px 10px;
   }
 }
 @media screen and (max-width: 559.98px) {
