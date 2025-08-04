@@ -2920,7 +2920,7 @@ max-width: 288px;*/
   width: 1122px;
   height: 515px;
   border-radius: 12px;
-  background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2025/form_and_copy_bg_desktop.webp);
+  background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/desktop_bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2975,7 +2975,7 @@ max-width: 288px;*/
     width: 100%;
     height: calc(100% - 41px);
     bottom: 0;
-    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2025/form_and_copy_bg_tablet.webp);
+    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/tablet_bg.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3006,6 +3006,20 @@ max-width: 288px;*/
 
   .spz_t2027RD_V1 .formSection .formWrapper .steps {
     margin-top: 9px;
+  }
+
+  .spz_t2027RD_V1 .mainSection > div {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+    z-index: 1;
+    background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/mobile_bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 56px 0px;
   }
 }
 /*2025 Test Update End*/
@@ -3910,12 +3924,7 @@ max-width: 288px;*/
 }
 @media screen and (max-width: 767.98px) {
   .spz_t2027RD_V1 .mainSection {
-    background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2023/bg_v-3_mobile.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    padding: 56px 0px !important;
+    padding: 0px !important;
   }
   .spz_t2027RD_V1 .geotabLogo {
     padding-top: 0;
