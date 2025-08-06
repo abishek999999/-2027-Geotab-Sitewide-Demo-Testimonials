@@ -200,7 +200,7 @@ html {
   content: "";
   max-width: 1122px;
   width: 100%;
-  height: 515px;
+  height: 526px;
   background-color: transparent;
 
   background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/desktop_bg.webp);
@@ -234,16 +234,19 @@ html {
 }
 
 .copySection {
-  padding: 30px 48px;
+  padding: 0px 48px;
   max-width: 536px;
   width: 100%;
   box-sizing: border-box;
   margin: auto 0px;
+  background-color: #eff2f7;
+  border-radius: 12px;
 }
+
 .copySection .copyHeaderSection {
   display: flex;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .copySection .copyHeaderSection h4 {
@@ -252,8 +255,14 @@ html {
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 52.8px */
+  line-height: 120%;
+  leading-trim: both;
+  text-edge: cap;
   margin: 0px;
+}
+
+.copySection .copySectionContainer {
+  margin-top: -9px;
 }
 
 .copySection .copyHeaderSection p {
@@ -340,6 +349,10 @@ html {
 }
 
 @media (max-width: 1300px) {
+  .copySection .copySectionContainer {
+    margin-top: 0px;
+  }
+
   .spz_t2027_V1 .formPopup form#generic-lead-form::after {
     content: none;
   }
@@ -347,7 +360,7 @@ html {
     flex-direction: column;
     background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/tablet_bg.webp);
     background-size: cover;
-    background-position: center;
+    background-position: center -46px;
     background-repeat: no-repeat;
     max-width: 677px;
     width: 100%;
@@ -368,7 +381,7 @@ html {
     margin-top: -36px;
   }
   .copySection {
-    padding: 56px 44px 65px 47px;
+    padding: 47px 46px 65px 45px;
     margin: auto 0px;
     max-width: 100%;
   }
@@ -395,7 +408,7 @@ html {
   }
 
   .copySection {
-    padding: 48px 0px 9px 0px;
+    padding: 38px 0px 9px 0px;
     max-width: 586px;
     width: calc(100% - 32px);
     border-radius: 0px 0px 12px 12px;
@@ -1809,12 +1822,6 @@ display: none;
   }
   .spz_t2027_V1 .formPopup form#generic-lead-form {
     padding: 0px;
-
-    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/mobile_bg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
     border-radius: 0px;
     padding: 56px 0px;
     max-width: 100%;
@@ -2548,6 +2555,11 @@ max-width: 288px;*/
     div[aria-labelledby="popout-button-title"]
     .genericLeadFormParent {
     padding: 0px;
+
+    background-image: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/mobile_bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -2952,7 +2964,7 @@ max-width: 288px;*/
   position: absolute;
   content: "";
   width: 1122px;
-  height: 515px;
+  height: 526px;
   border-radius: 12px;
   background: url(https://res.cloudinary.com/spiralyze/image/upload/f_auto/geotab/2027/desktop_bg.webp);
   background-size: cover;
@@ -2981,7 +2993,6 @@ max-width: 288px;*/
   border-radius: 12px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  margin-left: -39px;
   box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
   padding: 22px 36px 38px 36px;
   z-index: 2;
@@ -2996,16 +3007,16 @@ max-width: 288px;*/
     flex-direction: column;
     height: auto;
     max-width: 677px;
+    padding-bottom: 0px;
   }
   .spz_t2027RD_V1 .formSection .formWrapper .formWrapperContainer {
     max-width: 586px;
     min-width: auto;
     width: 100%;
     margin-left: 0px;
-    margin-top: -26px;
   }
   .spz_t2027RD_V1 .formSection .formWrapper::after {
-    max-width: 650px;
+    max-width: 677px;
     width: 100%;
     height: calc(100% - 41px);
     bottom: 0;

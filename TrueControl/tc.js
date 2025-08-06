@@ -1,4 +1,18 @@
 (function () {
+  //Utils and data
+  const dataLayer = () => {
+    const form = document.getElementById("generic-lead-form");
+    if (form) {
+      form.addEventListener("submit", () => {
+        console.log("Form submitted");
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+          event: "custom_form_submit",
+          form_name: "demo_form",
+        });
+      });
+    }
+  };
   if (window.location.pathname === "/request-demo/") {
     /*Variation 1*/
     (function () {
@@ -108,6 +122,7 @@
               parentElement.appendChild(newDiv);
 
               formMagic();
+              setTimeout(() => dataLayer(), 700);
             }
           }
         });
@@ -2630,7 +2645,7 @@
         });
         setTimeout(() => {
           clearInterval(stickyCTAInterval);
-        }, 40000);
+        }, 4000);
 
         var heroCTAInterval = setInterval(function () {
           if (
@@ -2860,6 +2875,7 @@
             )
           ) {
             clearInterval(waitelement);
+            setTimeout(() => dataLayer(), 700);
             // addingParent  class
             const leadForm = document.querySelector(
               'div[role="presentation"] #generic-lead-form'
